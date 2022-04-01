@@ -1,0 +1,16 @@
+
+=============================================================
+SoyNet Version 4.0.0.2020-09-02
+Copyright 2018. SOYNET Co.,Ltd. ALL RIGHT RESERVED.
+=============================================================
+
+[2022-03-30.160215.737] [I] open log_file=../models/Transformers_MaskedLM/logs/bertMaskedLM.log_[2022-03-30.160215.737]_c950d6c2-a53f-aca9-451d-26447755c060.txt
+[2022-03-30.160215.737] [I] log level for writing is [I].
+[2022-03-30.160215.737] [I] log level for exit is [E].
+[2022-03-30.160215.737] [I] open license_file=[../utils/license_trial.key].
+[2022-03-30.160215.755] [I] Trial License is found.
+[2022-03-30.160215.758] [I] Temporary License Date Duration [19700101]~[20220731], Current Date [20220330]
+[2022-03-30.160215.758] [I] Contact SOYNET [http://soynet.io] to get the proper License
+[2022-03-30.160218.240] [I] loading engine is done successfully.
+[2022-03-30.160218.279] [I] SoyNet handle is created.
+[2022-03-30.160218.279] [I]  free_gpu_mem nvml=23610449920 info=22809346048 byte
