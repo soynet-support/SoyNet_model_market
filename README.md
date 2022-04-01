@@ -29,14 +29,17 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++
 ## Folder Structure
 
 ```
-   ├─mgmt         : SoyNet execution env
-   │  ├─configs   : model definitions (*.cfg) and trial license
-   │  ├─engines   : SoyNet engine files (it's made at the first time execution.
-   │  │             It requires about 30 sec)
-   │  ├─logs      : SoyNet log files
-   │  └─weights   : weight files for AI models
-   └─samples      : folder to build sample demo 
-      └─include   : header files
+   ├─data               : Example sample data
+   ├─include            : File for using dll in Python
+   ├─lib                : .dll or .so files for SoyNet
+   ├─models             : SoyNet execution env
+   │  └─model           : Model name
+   │      ├─configs     : Model definitions (*.cfg)
+   │      ├─engines     : SoyNet engine files (it's made at the first time execution or when you modify the configs file.)
+   │      ├─logs        : SoyNet log files
+   │      └─weights     : Weight files for SoyNet models
+   ├─samples            : Folder to build sample demo 
+   └─utils              : Commonly-used functionand trial license
 ```
 
 
