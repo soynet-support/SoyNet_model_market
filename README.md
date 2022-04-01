@@ -11,6 +11,8 @@ This section describes the process of performing a demo running Yolo (v3-tiny, v
 - Accelerate model inference by maximizing the utilization of numerous cores on the GPU without compromising accuracy (2x to 5x compared to Tensorflow)
 - Minimize GPU memory usage (1/5~1/15 level compared to Tensorflow)
 
+   ※ Performance varies depends on the model and configuration environment.
+
 #### Benefit of SoyNet
 
 - can support customer to  provide AI applications and AI services in time (Time to Market)
@@ -35,11 +37,13 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++
    ├─models             : SoyNet execution env
    │  └─model           : Model name
    │      ├─configs     : Model definitions (*.cfg)
-   │      ├─engines     : SoyNet engine files (it's made at the first time execution or when you modify the configs file.)
+   │      ├─engines     : SoyNet engine files
    │      ├─logs        : SoyNet log files
    │      └─weights     : Weight files for SoyNet models
    ├─samples            : Folder to build sample demo 
    └─utils              : Commonly-used functionand trial license
 ```
+__- engines:__ it's made at the first time execution or when you modify the configs file.
 
-
+## Contact
+For business inquiries or professional support requests please visit https://market.soymlops.com/#/
