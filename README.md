@@ -43,7 +43,8 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++
    ├─samples            : Folder to build sample demo 
    └─utils              : Commonly-used functionand trial license
 ```
-__- engines:__ it's made at the first time execution or when you modify the configs file.
+ - engines: it's made at the first time execution or when you modify the configs file.
+ - license file: Please contact SoyNet if the time has passed.
 
 ## Contact
 For business inquiries or professional support requests please visit https://market.soymlops.com/#/
