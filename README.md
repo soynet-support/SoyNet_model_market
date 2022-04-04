@@ -42,7 +42,7 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++
    │      ├─configs     : Model definitions (*.cfg)
    │      ├─engines     : SoyNet engine files
    │      ├─logs        : SoyNet log files
-   │      └─weights     : Weight files for SoyNet models
+   │      └─weights     : Weight files for SoyNet models (*.weights)
    ├─samples            : Executable File
    └─utils              : Commonly-used functionand trial license
 ```
