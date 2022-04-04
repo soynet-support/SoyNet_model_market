@@ -11,19 +11,20 @@ if __name__ == "__main__":
 
     # Variable for SoyNet
     batch_size = 1
-    engine_serialize = 0  # 1: Create Engine For SoyNet, 0: Use of Engine generated
+    engine_serialize = 1  # 1: Create Engine For SoyNet, 0: Use of Engine generated
 
     region_count = 1000
     nms_count = 100
     class_count = len(class_names)
     input_height, input_width = 720, 1280
-    model_size = 640
+    model_size = 1280
 
-    model_name = "yolov5m"  # or yolov5s
-    cfg_file = "../models/Yolov5-3.0/configs/{}.cfg".format(model_name)
-    weight_file = "../models/Yolov5-3.0/weights/{}.weights".format(model_name)
-    engine_file = "../models/Yolov5-3.0/engines/{}.bin".format(model_name)
-    log_file = "../models/Yolov5-3.0/logs/{}.log".format(model_name)
+    model_name = "yolov5m"
+
+    cfg_file = "../models/Yolov5-6.0-m/configs/{}.cfg".format(model_name)
+    weight_file = "../models/Yolov5-6.0-m/weights/{}.weights".format(model_name)
+    engine_file = "../models/Yolov5-6.0-m/engines/{}.bin".format(model_name)
+    log_file = "../models/Yolov5-6.0-m/logs/{}.log".format(model_name)
 
     extend_param = \
         "MODEL_NAME={} BATCH_SIZE={} ENGINE_SERIALIZE={} CLASS_COUNT={} NMS_COUNT={} REGION_COUNT={} " \
