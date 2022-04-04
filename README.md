@@ -1,6 +1,6 @@
 ![SoyNet](https://user-images.githubusercontent.com/74886743/161455587-31dc85f4-d60c-4dd5-9612-113a9ac82c41.png)
 
-# SoyNet_model_market
+# SoyNet Model Market
 
 [SoyNet](https://soynet.io/) is an inference optimizing solution for AI models.
 
@@ -14,7 +14,7 @@ This section describes the process of performing a demo running Yolo (v3-tiny, v
 - Minimize GPU memory usage (1/5~1/15 level compared to Tensorflow)
 
    ※ Performance varies depends on the model and configuration environment.
-
+   
 #### Benefit of SoyNet
 
 - can support customer to  provide AI applications and AI services in time (Time to Market)
@@ -32,6 +32,7 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++
 
 ## Folder Structure
 
+
 ```
    ├─data               : Example sample data
    ├─include            : File for using dll in Python
@@ -46,10 +47,78 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++
    └─utils              : Commonly-used functionand trial license
 ```
  - engines: it's made at the first time execution or when you modify the configs file.
- - license file: Please contact SoyNet if the time has passed.
+ - weights: you can download [SoyNet](https://soynet.io/)
+ - license file: Please contact [SoyNet](https://soynet.io/) if the time has passed.
 
+## Requirements
+ - CUDA (>= 11.1)
+ - TensorRT (>= 8.x)
+
+## Getting Started
+Before proceeding, please refer to the [Folder Structure](#folder-structure) to see if the required files exist.
 
 ## Model List
+#### Classification
+|Model|Link|
+|---|---|
+|EfficientNet - Pytorch||
+|EfficientNet - TensorFlow||
+|Inception ResNet V2||
+|VGG16||
+|SENet||
+|MobileNet V2||
+
+#### Object Detection
+|Model|Link|
+|---|---|
+|Faster RCNN||
+|RetinaFace||
+|EfficientDet||
+|SSD MobileNet||
+|Yolo V3||
+|Yolo V4||
+|Yolo V5||
+|Yolo V5 Face||
+|Yolor||
+
+#### Object Tracking
+|Model|Link|
+|---|---|
+|FairMot||
+
+#### Pose Estimation
+|Model|Link|
+|---|---|
+|Pose RCNN||
+|OpenPose||
+
+#### Segmentation
+|Model|Link|
+|---|---|
+|Mask RCNN||
+|Yolact||
+|Yolact++||
+
+#### GAN
+|Model|Link|
+|---|---|
+|FAnoGan||
+|CycleGan||
+|pix2pix||
+|IDN||
+|Glean||
+
+#### NLP
+|Model|Link|
+|---|---|
+|Transformers MaskedLM||
+
+#### ETC
+|Model|Link|
+|---|---|
+|ArcFace||
+|Eca NFNet||
+
 
 
 ## Contact
