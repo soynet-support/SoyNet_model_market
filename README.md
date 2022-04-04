@@ -98,12 +98,12 @@ Before proceeding, please refer to the [Folder Structure](#folder-structure) to 
 #### Object Detection
 |Model|Link|
 |---|---|
-|Faster RCNN||
-|RetinaFace||
-|EfficientDet||
-|SSD MobileNet||
-|Yolo V3||
-|Yolo V4||
+|[Faster RCNN](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Detectron2_Faster-RCNN)||
+|[RetinaFace](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/RetinaFace)||
+|[EfficientDet](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/EfficientDet)||
+|[SSD MobileNet](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/SSD_Mobilenet)||
+|[Yolo V3](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov3)||
+|[Yolo V4](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov4)||
 |Yolo V5||
 |Yolo V5 Face||
 |Yolor||
@@ -111,40 +111,40 @@ Before proceeding, please refer to the [Folder Structure](#folder-structure) to 
 #### Object Tracking
 |Model|Link|
 |---|---|
-|FairMot||
+|[FairMot](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/FairMot)||
 
 #### Pose Estimation
 |Model|Link|
 |---|---|
-|Pose RCNN||
-|OpenPose||
+|[Pose RCNN](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Detectron2_Pose-RCNN)||
+|[OpenPose](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Openpose-Darknet)||
 
 #### Segmentation
 |Model|Link|
 |---|---|
-|Mask RCNN||
-|Yolact||
-|Yolact++||
+|[Mask RCNN](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Detectron2_Mask-RCNN)||
+|[Yolact](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolact)||
+|[Yolact++](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolact%2B%2B)||
 
 #### GAN
 |Model|Link|
 |---|---|
-|FAnoGan||
-|CycleGan||
-|pix2pix||
-|IDN||
-|Glean||
+|[FAnoGan](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/FAnoGan)||
+|[CycleGan](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/CycleGan)||
+|[pix2pix](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/pix2pix)||
+|[IDN](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/IDN)||
+|[Glean](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/glean)||
 
 #### NLP
 |Model|Link|
 |---|---|
-|Transformers MaskedLM||
+|[Transformers MaskedLM](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Transformers_MaskedLM)||
 
 #### ETC
 |Model|Link|
 |---|---|
-|ArcFace||
-|Eca NFNet||
+|[ArcFace](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/ArcFace)||
+|[Eca NFNet](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Eca_NFNet)||
 
 
 
