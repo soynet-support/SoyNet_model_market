@@ -136,4 +136,4 @@ Before proceeding, please refer to the [Folder Structure](#folder-structure) to 
 
 
 ## Contact
-For business inquiries or professional support requests please visit https://market.soymlops.com/#/
+For business inquiries or professional support requests please visit [SoyNet](https://market.soymlops.com/#/)
