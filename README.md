@@ -56,6 +56,10 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++
  - `inference(handle)` : Start inference.
  - `getOutput(handle, output)` : Put the inference data into the output.
 
+   ※ `extend_param`
+      - `extend_param` contains parameters necessary to define the model, such as input size, engine_serialize, batch_size ...
+      - The parameters required may vary depending on the model.
+
    ※ `engine_serialize` in `extend_param`
       - This parameter determines whether to build a SoyNet engine or not.
       - If you run it for the first time, set engine_serialize to 1.
