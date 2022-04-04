@@ -1,3 +1,5 @@
+![SoyNet](https://user-images.githubusercontent.com/74886743/161455587-31dc85f4-d60c-4dd5-9612-113a9ac82c41.png)
+
 # SoyNet_model_market
 
 [SoyNet](https://soynet.io/) is an inference optimizing solution for AI models.
