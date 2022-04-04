@@ -46,16 +46,15 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++
    ├─samples            : Executable File
    └─utils              : Commonly-used functionand trial license
 ```
- - engines: it's made at the first time execution or when you modify the configs file.
- - weights: you can download [SoyNet](https://soynet.io/en/)
- - license file: Please contact [SoyNet](https://soynet.io/en/) if the time has passed.
+ - `engines` : it's made at the first time execution or when you modify the configs file.
+ - `weights` : You can download .weights file from `download_soynet_weight.sh` in [weights folder](#folder-structure).
+ - `license file` : Please contact [SoyNet](https://soynet.io/en/) if the time has passed.
 
 ## SoyNet Function.
  - `initSoyNet(.config, extend_param)` : Created a SoyNet handle.
  - `feedData(handle, data)` : Put the data into the SoyNet handle.
  - `inference(handle)` : Start inference.
- - `getOutput(handle, output)` : Put the inference data into the SoyNet handle.
-
+ - `getOutput(handle, output)` : Put the inference data into the output.
 
    ※ `engine_serialize` in `extend_param`
       - This parameter determines whether to build a SoyNet engine or not.
