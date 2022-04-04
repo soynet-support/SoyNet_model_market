@@ -67,9 +67,10 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++
 
 ## Getting Started
 Before proceeding, please refer to the [Folder Structure](#folder-structure) to see if the required files exist.
-1. You can download .weights file from [SoyNet](https://soynet.io/). Put it in the model folder you want to use.
-2. Set engine_serialize to 1 in the code of the samples file.
-3. Just Run
+1. Create `engines, logs, weights` folder in the model folder you want to use.
+2. You can download .weights file from [SoyNet](https://soynet.io/). Put it in the model folder you want to use.
+3. Set engine_serialize to 1 in the code of the samples file.
+4. Just Run
 
 ## Model List
 #### Classification
