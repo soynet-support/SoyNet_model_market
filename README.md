@@ -4,7 +4,7 @@
 
 [SoyNet](https://soynet.io/en/) is an inference optimizing solution for AI models.
 
-This section describes the process of performing a demo running Yolo (v3-tiny, v3, v4), one of most famous object detection models.
+We start a [SoyNet AI model market](https://market.soymlops.com/#/about).
 
 ## SoyNet Overview
 
