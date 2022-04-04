@@ -66,7 +66,7 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++
 #### H/W
  - GPU: RTX 3090 (NVIDA GPU with PASCAL architecture or higher)
  
-   ※ You need to use dll and so files that match the GPU. Please Contact [SoyNet](https://soynet.io/en/)
+   ※ You need to use .dll and .so files that match the GPU. Please contact [SoyNet](https://soynet.io/en/)
 
 #### NVIDA Development Environment
  - CUDA (>= 11.1)
