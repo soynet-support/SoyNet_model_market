@@ -51,11 +51,23 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++
  - license file: Please contact [SoyNet](https://soynet.io/) if the time has passed.
 
 ## Requirements
+#### H/W
+ - GPU: RTX 3090 (NVIDA GPU with PASCAL architecture or higher)
+ 
+   ※ You need to use dll and so files that match the GPU. Pleas Contact [SoyNet](https://soynet.io/)
+
+#### NVIDA Development Environment
  - CUDA (>= 11.1)
+ - cuDNN (>= 8.x)
  - TensorRT (>= 8.x)
+
+#### S/W
+ - OS : Ubuntu 18.04 LTS
+ - Others : OpenCV (for reading video files and outputting the screen)
 
 ## Getting Started
 Before proceeding, please refer to the [Folder Structure](#folder-structure) to see if the required files exist.
+
 
 ## Model List
 #### Classification
