@@ -51,7 +51,7 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++
  - `license file` : Please contact [SoyNet](https://soynet.io/en/) if the time has passed.
 
 ## SoyNet Function.
- - `initSoyNet(.config, extend_param)` : Created a SoyNet handle.
+ - `initSoyNet(.cfg, extend_param)` : Created a SoyNet handle.
  - `feedData(handle, data)` : Put the data into the SoyNet handle.
  - `inference(handle)` : Start inference.
  - `getOutput(handle, output)` : Put the inference data into the output.
