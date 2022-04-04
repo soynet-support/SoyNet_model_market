@@ -2,6 +2,8 @@ import cv2 as cv
 import sys
 import numpy as np
 
+sys.path.append('../')
+
 from utils.utils import MaskedLM_Data
 from include.SoyNet import *
 

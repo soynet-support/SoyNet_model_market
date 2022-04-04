@@ -2,6 +2,8 @@ import cv2 as cv
 import sys
 import numpy as np
 
+sys.path.append('../')
+
 from include.SoyNet import *
 from utils.utils import MakeMultiple32
 

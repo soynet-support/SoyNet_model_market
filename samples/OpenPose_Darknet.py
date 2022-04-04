@@ -1,10 +1,11 @@
 import cv2 as cv
 import sys
 import numpy as np
+
+sys.path.append('../')
+
 from utils.utils import CreateNetsizeImage
-
 from include.SoyNet import *
-
 
 if __name__ == "__main__":
 
