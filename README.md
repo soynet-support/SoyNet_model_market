@@ -146,7 +146,7 @@ Before proceeding, please refer to the [Folder Structure](#folder-structure) to 
 |[ArcFace](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/ArcFace)|
 |[Eca NFNet](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Eca_NFNet)|
 
-
+The model will be added continuously, so please contact [SoyNet](https://soynet.io/en/)for the **Custom Model**.
 
 ## Contact
 For business inquiries or professional support requests please visit [SoyNet](https://market.soymlops.com/#/)
