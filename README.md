@@ -105,8 +105,8 @@ Before proceeding, please refer to the [Folder Structure](#folder-structure) to 
 |[Yolo V3](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov3)||
 |[Yolo V4](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov4)||
 |Yolo V5||
-|Yolo V5 Face||
-|Yolor||
+|[Yolo V5 Face](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5_Face)||
+|[Yolor](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolor)||
 
 #### Object Tracking
 |Model|Link|
