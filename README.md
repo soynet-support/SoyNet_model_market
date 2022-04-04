@@ -2,7 +2,7 @@
 
 # SoyNet Model Market
 
-[SoyNet](https://soynet.io/) is an inference optimizing solution for AI models.
+[SoyNet](https://soynet.io/en/) is an inference optimizing solution for AI models.
 
 This section describes the process of performing a demo running Yolo (v3-tiny, v3, v4), one of most famous object detection models.
 
@@ -47,8 +47,8 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++
    └─utils              : Commonly-used functionand trial license
 ```
  - engines: it's made at the first time execution or when you modify the configs file.
- - weights: you can download [SoyNet](https://soynet.io/)
- - license file: Please contact [SoyNet](https://soynet.io/) if the time has passed.
+ - weights: you can download [SoyNet](https://soynet.io/en/)
+ - license file: Please contact [SoyNet](https://soynet.io/en/) if the time has passed.
 
 ## SoyNet Function.
  - `initSoyNet(.config, extend_param)` : Created a SoyNet handle.
@@ -67,7 +67,7 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++
 #### H/W
  - GPU: RTX 3090 (NVIDA GPU with PASCAL architecture or higher)
  
-   ※ You need to use dll and so files that match the GPU. Please Contact [SoyNet](https://soynet.io/)
+   ※ You need to use dll and so files that match the GPU. Please Contact [SoyNet](https://soynet.io/en/)
 
 #### NVIDA Development Environment
  - CUDA (>= 11.1)
