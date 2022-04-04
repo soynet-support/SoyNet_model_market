@@ -88,12 +88,12 @@ Before proceeding, please refer to the [Folder Structure](#folder-structure) to 
 #### Classification
 |Model|Link|
 |---|---|
-|EfficientNet - Pytorch||
-|EfficientNet - TensorFlow||
-|Inception ResNet V2||
-|VGG16||
-|SENet||
-|MobileNet V2||
+|[EfficientNet - Pytorch](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/EfficientNet_pytorch)||
+|[EfficientNet - TensorFlow](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/EfficientNet_TensorFlow)||
+|[Inception ResNet V2](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Inception_resnet_v2)||
+|[VGG](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/VGG)||
+|[SENet](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/SENet_legacy_senet)||
+|[MobileNet V2](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Mobilenet_V2)||
 
 #### Object Detection
 |Model|Link|
