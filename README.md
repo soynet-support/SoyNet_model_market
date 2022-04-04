@@ -54,7 +54,7 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++
 #### H/W
  - GPU: RTX 3090 (NVIDA GPU with PASCAL architecture or higher)
  
-   ※ You need to use dll and so files that match the GPU. Pleas Contact [SoyNet](https://soynet.io/)
+   ※ You need to use dll and so files that match the GPU. Please Contact [SoyNet](https://soynet.io/)
 
 #### NVIDA Development Environment
  - CUDA (>= 11.1)
@@ -67,10 +67,14 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++
 
 ## Getting Started
 Before proceeding, please refer to the [Folder Structure](#folder-structure) to see if the required files exist.
-1. Create `engines, logs, weights` folder in the model folder you want to use.
-2. You can download .weights file from [SoyNet](https://soynet.io/). Put it in the model folder you want to use.
-3. Set engine_serialize to 1 in the code of the samples file.
-4. Just Run
+
+1. You can download .weights file from `download_soynet_weight.sh` in weights folder.
+2. Set engine_serialize to 1 in the code of the samples file.
+3. Just Run
+
+※ engine_serialize
+ - This parameter determines whether to build a small Ethernet engine or not.
+ - If you  
 
 ## Model List
 #### Classification
