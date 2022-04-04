@@ -86,65 +86,65 @@ Before proceeding, please refer to the [Folder Structure](#folder-structure) to 
 
 ## Model List
 #### Classification
-|Model|Link|
-|---|---|
-|[EfficientNet - Pytorch](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/EfficientNet_pytorch)||
-|[EfficientNet - TensorFlow](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/EfficientNet_TensorFlow)||
-|[Inception ResNet V2](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Inception_resnet_v2)||
-|[VGG](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/VGG)||
-|[SENet](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/SENet_legacy_senet)||
-|[MobileNet V2](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Mobilenet_V2)||
+|Model|
+|---|
+|[EfficientNet - Pytorch](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/EfficientNet_pytorch)|
+|[EfficientNet - TensorFlow](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/EfficientNet_TensorFlow)|
+|[Inception ResNet V2](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Inception_resnet_v2)|
+|[VGG](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/VGG)|
+|[SENet](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/SENet_legacy_senet)|
+|[MobileNet V2](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Mobilenet_V2)|
 
 #### Object Detection
-|Model|Link|
-|---|---|
-|[Faster RCNN](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Detectron2_Faster-RCNN)||
-|[RetinaFace](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/RetinaFace)||
-|[EfficientDet](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/EfficientDet)||
-|[SSD MobileNet](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/SSD_Mobilenet)||
-|[Yolo V3](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov3)||
-|[Yolo V4](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov4)||
-|Yolo V5||
-|[Yolo V5 Face](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5_Face)||
-|[Yolor](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolor)||
+|Model|
+|---|
+|[Faster RCNN](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Detectron2_Faster-RCNN)|
+|[RetinaFace](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/RetinaFace)|
+|[EfficientDet](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/EfficientDet)|
+|[SSD MobileNet](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/SSD_Mobilenet)|
+|[Yolo V3](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov3)|
+|[Yolo V4](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov4)|
+|Yolo V5|
+|[Yolo V5 Face](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5_Face)|
+|[Yolor](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolor)|
 
 #### Object Tracking
-|Model|Link|
-|---|---|
-|[FairMot](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/FairMot)||
+|Model|
+|---|
+|[FairMot](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/FairMot)|
 
 #### Pose Estimation
-|Model|Link|
-|---|---|
-|[Pose RCNN](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Detectron2_Pose-RCNN)||
-|[OpenPose](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Openpose-Darknet)||
+|Model|
+|---|
+|[Pose RCNN](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Detectron2_Pose-RCNN)|
+|[OpenPose](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Openpose-Darknet)|
 
 #### Segmentation
-|Model|Link|
-|---|---|
-|[Mask RCNN](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Detectron2_Mask-RCNN)||
-|[Yolact](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolact)||
-|[Yolact++](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolact%2B%2B)||
+|Model|
+|---|
+|[Mask RCNN](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Detectron2_Mask-RCNN)|
+|[Yolact](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolact)|
+|[Yolact++](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolact%2B%2B)|
 
 #### GAN
-|Model|Link|
-|---|---|
-|[FAnoGan](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/FAnoGan)||
-|[CycleGan](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/CycleGan)||
-|[pix2pix](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/pix2pix)||
-|[IDN](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/IDN)||
-|[Glean](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/glean)||
+|Model|
+|---|
+|[FAnoGan](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/FAnoGan)|
+|[CycleGan](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/CycleGan)|
+|[pix2pix](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/pix2pix)|
+|[IDN](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/IDN)|
+|[Glean](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/glean)|
 
 #### NLP
-|Model|Link|
-|---|---|
-|[Transformers MaskedLM](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Transformers_MaskedLM)||
+|Model|
+|---|
+|[Transformers MaskedLM](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Transformers_MaskedLM)|
 
 #### ETC
-|Model|Link|
-|---|---|
-|[ArcFace](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/ArcFace)||
-|[Eca NFNet](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Eca_NFNet)||
+|Model|
+|---|
+|[ArcFace](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/ArcFace)|
+|[Eca NFNet](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Eca_NFNet)|
 
 
 
