@@ -50,6 +50,19 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++
  - weights: you can download [SoyNet](https://soynet.io/)
  - license file: Please contact [SoyNet](https://soynet.io/) if the time has passed.
 
+## SoyNet Function.
+ - `initSoyNet(.config, extend_param)` : Created a SoyNet handle.
+ - `feedData(handle, data)` : Put the data into the SoyNet handle.
+ - `inference(handle)` : Start inference.
+ - `getOutput(handle, output)` : Put the inference data into the SoyNet handle.
+
+
+   ※ `engine_serialize` in `extend_param`
+      - This parameter determines whether to build a SoyNet engine or not.
+      - If you run it for the first time, set engine_serialize to 1.
+      - Also, if you edit the extend parameter, set engine_serialize to 1.
+      - Set to 0 after engine is created.
+
 ## Requirements
 #### H/W
  - GPU: RTX 3090 (NVIDA GPU with PASCAL architecture or higher)
@@ -68,13 +81,9 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++
 ## Getting Started
 Before proceeding, please refer to the [Folder Structure](#folder-structure) to see if the required files exist.
 
-1. You can download .weights file from `download_soynet_weight.sh` in weights folder.
-2. Set engine_serialize to 1 in the code of the samples file.
+1. You can download .weights file from `download_soynet_weight.sh` in [weights folder](#folder-structure).
+2. Set [engine_serialize](#soynet-function) to 1 in the code of the samples file.
 3. Just Run
-
-※ engine_serialize
- - This parameter determines whether to build a small Ethernet engine or not.
- - If you  
 
 ## Model List
 #### Classification
