@@ -28,6 +28,7 @@ We start a [SoyNet AI model market](https://market.soymlops.com/#/about).
 - Supports NVIDIA and non-NVIDIA GPUs (based on technologies such as CUDA and OpenCL, respectively)
 - library files to be easiliy integrated with customer applications
 dll file (Windows), so file (Linux) with header or *.lib for building in C/C++
+- We can provide c++ and python executable files.
 
 
 ## Folder Structure
