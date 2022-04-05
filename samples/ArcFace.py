@@ -20,9 +20,11 @@ if __name__ == "__main__":
     log_file = "../models/ArcFace/logs/{}.log".format(model_name)
 
     extend_param = \
-        "MODEL_NAME={} BATCH_SIZE={} ENGINE_SERIALIZE={} MODEL_SIZE={},{} " \
+        "MODEL_NAME={} BATCH_SIZE={} ENGINE_SERIALIZE={} " \
+        "MODEL_SIZE={},{} " \
         "WEIGHT_FILE={} ENGINE_FILE={} LOG_FILE={}".format(
-            model_name, batch_size, engine_serialize, model_height, model_width,
+            model_name, batch_size, engine_serialize,
+            model_height, model_width,
             weight_file, engine_file, log_file
         )
 
