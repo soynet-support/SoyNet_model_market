@@ -10,24 +10,24 @@ We start a [SoyNet AI model market](https://market.soymlops.com/#/about).
 
 #### Core technology of SoyNet
 
-- Accelerate model inference by maximizing the utilization of numerous cores on the GPU without compromising accuracy (2x to 5x compared to Tensorflow)
-- Minimize GPU memory usage (1/5~1/15 level compared to Tensorflow)
+- Accelerate model inference by maximizing the utilization of numerous cores on the GPU without compromising accuracy (2x to 5x compared to Tensorflow).
+- Minimize GPU memory usage (1/5~1/15 level compared to Tensorflow).
 
    ※ Performance varies depends on the model and configuration environment.
    
 #### Benefit of SoyNet
 
-- can support customer to  provide AI applications and AI services in time (Time to Market)
-- can help application developers to easily execute AI projects without additional technical AI knowledge and experience
-- can help customer to reduce H/W (GPU, GPU server) or Cloud Instance cost for the same AI execution (inference)
-- can support customer to respond to real-time environments that require very low latency in AI inference
+- can support customer to  provide AI applications and AI services in time. (Time to Market)
+- can help application developers to easily execute AI projects without additional technical AI knowledge and experience.
+- can help customer to reduce H/W (GPU, GPU server) or Cloud Instance cost for the same AI execution. (inference)
+- can support customer to respond to real-time environments that require very low latency in AI inference.
 
 #### Features of SoyNet
 
-- Dedicated engine for inference of deep learning models
-- Supports NVIDIA and non-NVIDIA GPUs (based on technologies such as CUDA and OpenCL, respectively)
+- Dedicated engine for inference of deep learning models.
+- Supports NVIDIA and non-NVIDIA GPUs (based on technologies such as CUDA and OpenCL, respectively).
 - library files to be easiliy integrated with customer applications
-dll file (Windows), so file (Linux) with header or *.lib for building in C/C++
+dll file (Windows), so file (Linux) with header or *.lib for building in C/C++.
 - We can provide c++ and python executable files.
 
 
@@ -72,7 +72,7 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++
 #### H/W
  - GPU: RTX 3090 (NVIDA GPU with PASCAL architecture or higher)
  
-   ※ You need to use .dll and .so files that match the GPU. Please contact [SoyNet](https://soynet.io/en/)
+   ※ You need to use .dll and .so files that match the GPU. Please contact [SoyNet](https://soynet.io/en/).
 
 #### NVIDA Development Environment
  - CUDA (>= 11.1)
