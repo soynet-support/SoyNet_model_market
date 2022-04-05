@@ -15,7 +15,7 @@ if __name__ == "__main__":
     # Variable for SoyNet
     model_code = version["D0"]
     batch_size = 1
-    engine_serialize = 1  # 1: Create Engine For SoyNet, 0: Use of Engine generated
+    engine_serialize = 0  # 1: Create Engine For SoyNet, 0: Use of Engine generated
 
     region_count = 1000
     nms_count = 50

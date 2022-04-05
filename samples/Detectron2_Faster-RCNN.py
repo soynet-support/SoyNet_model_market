@@ -13,7 +13,7 @@ if __name__ == "__main__":
 
     # Variable for SoyNet
     batch_size = 1
-    engine_serialize = 1  # 1: Create Engine For SoyNet, 0: Use of Engine generated
+    engine_serialize = 0  # 1: Create Engine For SoyNet, 0: Use of Engine generated
 
     nms_count = 22
     class_count = len(class_names)

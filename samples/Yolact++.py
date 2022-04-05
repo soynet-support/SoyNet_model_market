@@ -19,7 +19,7 @@ if __name__ == "__main__":
     class_count = len(class_names)
     input_height, input_width = 720, 1280
 
-    model_name = "yolactpp-resnet101" # "yolactpp-resnet50"
+    model_name = "yolactpp-resnet50"
 
     cfg_file = "../models/Yolact++/configs/{}.cfg".format(model_name)
     weight_file = "../models/Yolact++/weights/{}.weights".format(model_name)
