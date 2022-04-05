@@ -3,6 +3,22 @@ Arc Face is face recognition Model.
 This proposed a new loss function to improve facial recognition performance.
 One of the important challenges of Feature learning using deep CNNs in Face Recognition is designing appropriate loss functions that improve discernment.
 
+# Prerequisites
+#### H/W
+ - GPU: RTX 3090 (NVIDA GPU with PASCAL architecture or higher)
+ 
+   ※ You need to use .dll and .so files that match the GPU. Please contact [SoyNet](https://soynet.io/en/)
+
+#### NVIDA Development Environment
+ - CUDA (>= 11.1)
+ - cuDNN (>= 8.x)
+ - TensorRT (>= 8.x)
+
+#### S/W
+ - OS : Ubuntu 18.04 LTS
+ - Others : OpenCV (for reading video files and outputting the screen)
+
+
 # Parameters
  - `extend_param`
       - `batch_size` : This is the batch-size of the data you want to input.
