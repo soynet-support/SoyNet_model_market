@@ -6,13 +6,16 @@ One of the important challenges of Feature learning using deep CNNs in Face Reco
 # Parameters
  - `extend_param`
       - `batch_size` : This is the batch-size of the data you want to input.
-      - `engine_serialize` : [Whether or not the engine is created.](#soynet-function)
-      - `cfg_file` : 
-      - `weight_file` : 
-      - `engine_file` : 
-      - `log_file` :  
-      - `model_height`, `model_width` : 
-      - `model_name` : 
+      - `engine_serialize` : Whether or not the engine is created.
+         - This parameter determines whether to build a SoyNet engine or not.
+         - If you run it for the first time, set engine_serialize to 1.
+         - Also, if you edit the extend parameter, set engine_serialize to 1.
+         - Set to 0 after engine is created.
+      - `cfg_file` : The path to cfg_file.
+      - `weight_file` : The path to weight_file.
+      - `engine_file` : The path to engine_file.
+      - `log_file` :  The path to log_file.
+      - `model_height`, `model_width` : Data size before entering the model.
 
 
 
