@@ -114,6 +114,8 @@ Before proceeding, please refer to the [Folder Structure](#folder-structure) to 
 |[Yolo V5-n](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5-6.0-n)|
 |[Yolo V5-s](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5-6.0-s)|
 |[Yolo V5-x](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5-6.0-x)|
+|[Yolo V5-l6](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5-6.0-l6)|
+|[Yolo V5-m6](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5-6.0-m6)|
 |[Yolo V5 Face](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5_Face)|
 |[Yolor](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolor)|
 
