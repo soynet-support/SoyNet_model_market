@@ -59,7 +59,8 @@ $ python ArcFace.py
 ```
 
 It is possible to create a C++ executable file.
-Contact [SoyNet](https://soynet.io/en/)
+
+Contact [SoyNet](https://soynet.io/en/).
 
 
 # Reference
