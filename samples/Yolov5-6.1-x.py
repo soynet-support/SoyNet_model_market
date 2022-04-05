@@ -21,12 +21,12 @@ if __name__ == "__main__":
     input_height, input_width = 720, 1280
     model_size = 1280
 
-    model_name = "yolov5n"
+    model_name = "yolov5x"
 
-    cfg_file = "../models/Yolov5-6.0-n/configs/{}.cfg".format(model_name)
-    weight_file = "../models/Yolov5-6.0-n/weights/{}.weights".format(model_name)
-    engine_file = "../models/Yolov5-6.0-n/engines/{}.bin".format(model_name)
-    log_file = "../models/Yolov5-6.0-n/logs/{}.log".format(model_name)
+    cfg_file = "../models/Yolov5-6.1-x/configs/{}.cfg".format(model_name)
+    weight_file = "../models/Yolov5-6.1-x/weights/{}.weights".format(model_name)
+    engine_file = "../models/Yolov5-6.1-x/engines/{}.bin".format(model_name)
+    log_file = "../models/Yolov5-6.1-x/logs/{}.log".format(model_name)
 
     extend_param = \
         "MODEL_NAME={} BATCH_SIZE={} ENGINE_SERIALIZE={} CLASS_COUNT={} NMS_COUNT={} REGION_COUNT={} " \

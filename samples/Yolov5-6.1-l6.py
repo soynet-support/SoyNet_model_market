@@ -23,10 +23,10 @@ if __name__ == "__main__":
 
     model_name = "yolov5l6"
 
-    cfg_file = "../models/Yolov5-6.0-l6/configs/{}.cfg".format(model_name)
-    weight_file = "../models/Yolov5-6.0-l6/weights/{}.weights".format(model_name)
-    engine_file = "../models/Yolov5-6.0-l6/engines/{}.bin".format(model_name)
-    log_file = "../models/Yolov5-6.0-l6/logs/{}.log".format(model_name)
+    cfg_file = "../models/Yolov5-6.1-l6/configs/{}.cfg".format(model_name)
+    weight_file = "../models/Yolov5-6.1-l6/weights/{}.weights".format(model_name)
+    engine_file = "../models/Yolov5-6.1-l6/engines/{}.bin".format(model_name)
+    log_file = "../models/Yolov5-6.1-l6/logs/{}.log".format(model_name)
 
     extend_param = \
         "MODEL_NAME={} BATCH_SIZE={} ENGINE_SERIALIZE={} CLASS_COUNT={} NMS_COUNT={} REGION_COUNT={} " \
