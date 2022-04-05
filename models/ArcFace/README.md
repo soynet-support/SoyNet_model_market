@@ -22,7 +22,7 @@ One of the important challenges of Feature learning using deep CNNs in Face Reco
 * Clone github repository
 
 ```
-$ git clone https://github.com/soynetmodelzoo/yolov5 ~/soynetmodelzoo/yolov5/
+$ git clone https://github.com/soynet-support/SoyNet_model_market.git
 ```
 
 * download pre-trained weight files (already converted to SoyNet)
@@ -34,21 +34,11 @@ $ cd ~/soynetmodelzoo/yolov5/mgmt/weights && bash ./download_weights.sh
 * set environment parameter
 
 ```
-$ LD_LIBRARY_PATH=~/soynetmodelzoo/yolov5/mgmt:$LD_LIBRARY_PATH
+$ LD_LIBRARY_PATH=~/SoyNet_model_market/lib:$LD_LIBRARY_PATH
 ```
 
-* Demo code Build and run yolo demo (for C++ only)
-
 ```
-$ cd /demo_yolo/samples && make all
-$ ./yolov5            
-```
-
-* run yolo demo (for python)
-
-```
-$ pip install -r requirements.txt 
-$ python yolov5.py 
+$ python ArcFace.py 
 ```
 
 ***
