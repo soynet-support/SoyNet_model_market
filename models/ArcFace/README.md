@@ -58,7 +58,8 @@ $ LD_LIBRARY_PATH=~/SoyNet_model_market/lib:$LD_LIBRARY_PATH
 $ python ArcFace.py 
 ```
 
-***
+It is possible to create a C++ executable file.
+Contact [SoyNet](https://soynet.io/en/)
 
 
 # Reference
