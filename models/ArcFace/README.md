@@ -37,6 +37,7 @@ $ cd ~/soynetmodelzoo/yolov5/mgmt/weights && bash ./download_weights.sh
 $ LD_LIBRARY_PATH=~/SoyNet_model_market/lib:$LD_LIBRARY_PATH
 ```
 
+* Run
 ```
 $ python ArcFace.py 
 ```
