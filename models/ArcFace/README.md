@@ -10,8 +10,7 @@ One of the important challenges of Feature learning using deep CNNs in Face Reco
  - cuDNN (>= 8.x)
  - TensorRT (= 8.2.1.8)
  
-    ※ You need to use .dll and .so files that match CDUA and TensorRT versions. Please contact [SoyNet](https://soynet.io/en/)
-
+    ※ You need to use .dll and .so files that match CDUA and TensorRT versions. If you want another version, Please contact [SoyNet](https://soynet.io/en/).
 #### S/W
  - OS : Ubuntu 18.04 LTS
  - Others : OpenCV (for reading video files and outputting the screen)
