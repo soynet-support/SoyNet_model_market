@@ -69,15 +69,12 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++.
       - Set to 0 after engine is created.
 
 ## Prerequisites
-#### H/W
- - GPU: RTX 3090 (NVIDA GPU with PASCAL architecture or higher)
- 
-   ※ You need to use .dll and .so files that match the GPU. Please contact [SoyNet](https://soynet.io/en/).
-
 #### NVIDA Development Environment
- - CUDA (>= 11.1)
+ - CUDA (= 11.1)
  - cuDNN (>= 8.x)
- - TensorRT (>= 8.x)
+ - TensorRT (= 8.2.1.8)
+ 
+    ※ You need to use .dll and .so files that match CDUA and TensorRT versions. Please contact [SoyNet](https://soynet.io/en/)
 
 #### S/W
  - OS : Ubuntu 18.04 LTS
