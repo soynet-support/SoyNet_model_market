@@ -68,7 +68,7 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++
       - Also, if you edit the extend parameter, set engine_serialize to 1.
       - Set to 0 after engine is created.
 
-## Requirements
+## Prerequisites
 #### H/W
  - GPU: RTX 3090 (NVIDA GPU with PASCAL architecture or higher)
  
