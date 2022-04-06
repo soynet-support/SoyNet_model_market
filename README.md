@@ -89,33 +89,72 @@ Before proceeding, please refer to the [Folder Structure](#folder-structure) to 
 
 The models folder contains a detailed description.
 
+## Model List
+#### Classification
 <table>
   <tr>
-    <td>내용</td>
-    <td>내용</td>
-  </tr>
-  <tr>
-    <td colspan="2">내용</td>
+    <td width="200">TEST✖️✔</td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <td rowspan="2">Model</td>
-    <td rowspan="2">Site Reference</td>
-    <td colspan="3"> Support Platform</td>
+    <th rowspan="2" align=center width="300">Model</td>
+    <th rowspan="2" align=center width="200">Site Reference</td>
+    <th colspan="3" align=center width="600">Support Platform</td>
       <tr>
-         <td>X86_Linux</td>
-         <td>X86_Windows</td>
-         <td>Jetson_Linux</td>
+         <th align=center width="200">X86_Linux</td>
+         <th align=center width="200">X86_Windows</td>
+         <th align=center width="200">Jetson_Linux</td>
       </tr>
   </tr>
   <tr>
-    <td>내용</td>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/EfficientNet_pytorch">EfficientNet - Pytorch</a>.</td>
+    <td align=center><a href="https://github.com/lukemelas/EfficientNet-PyTorch">LINK</a>.</td>
+   <td align=center>✔</td>
+   <td align=center>✔</td>
+   <td align=center></td>
   </tr>
-
-
+    <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/EfficientNet_TensorFlow">EfficientNet - TensorFlow</a>.</td>
+    <td align=center><a href="https://github.com/qubvel/efficientnet#models">LINK</a>.</td>
+   <td align=center>✔</td>
+   <td align=center>✔</td>
+   <td align=center></td>
+  </tr>
+  </tr>
+    <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Inception_resnet_v2">Inception ResNet V2</a>.</td>
+    <td align=center></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
+  <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/VGG">VGG</a>.</td>
+    <td align=center></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
+   <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/SENet_legacy_senet">SENet</a>.</td>
+    <td align=center></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
+  <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Mobilenet_V2">MobileNet V2</a>.</td>
+    <td align=center><a href="https://pytorch.org/vision/stable/_modules/torchvision/models/mobilenetv2.html">LINK</a>.</td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
 </table>
+
+#### Object Detection
+
 
 ## Model List
 #### Classification
