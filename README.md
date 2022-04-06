@@ -89,6 +89,34 @@ Before proceeding, please refer to the [Folder Structure](#folder-structure) to 
 
 The models folder contains a detailed description.
 
+<table>
+  <tr>
+    <td>내용</td>
+    <td>내용</td>
+  </tr>
+  <tr>
+    <td colspan="2">내용</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td rowspan="2">Model</td>
+    <td rowspan="2">Site Reference</td>
+    <td colspan="3"> Support Platform</td>
+      <tr>
+         <td>X86_Linux</td>
+         <td>X86_Windows</td>
+         <td>Jetson_Linux</td>
+      </tr>
+  </tr>
+  <tr>
+    <td>내용</td>
+  </tr>
+
+
+</table>
+
 ## Model List
 #### Classification
 |Model|
