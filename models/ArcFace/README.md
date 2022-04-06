@@ -41,11 +41,12 @@ $ git clone https://github.com/soynet-support/SoyNet_model_market.git
 * download pre-trained weight files (already converted to SoyNet)
 
 ```
-$ cd SoyNet_model_market/weights && bash ./download_weights.sh
+$ cd SoyNet_model_market/models/ArcFace/weights && bash ./download_weights.sh
 ```
 
 * Run
 ```
+$ cd ../../../samples
 $ python ArcFace.py 
 ```
 
