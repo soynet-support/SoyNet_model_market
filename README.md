@@ -87,6 +87,8 @@ Before proceeding, please refer to the [Folder Structure](#folder-structure) to 
 2. Set [engine_serialize](#soynet-function) to 1 in the code of the samples file.
 3. Just Run
 
+The models folder contains a detailed description.
+
 ## Model List
 #### Classification
 |Model|
