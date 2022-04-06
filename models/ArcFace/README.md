@@ -52,8 +52,6 @@ $ python ArcFace.py
 
 If you cannot create an engine, review the configuration settings again.
 
-If any other errors occur, please contact [Soynet](https://market.soymlops.com/#/contact-us)
-
 It is possible to create a C++ executable file.
 
 Contact [SoyNet](https://market.soymlops.com/#/contact-us).
