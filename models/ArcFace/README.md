@@ -19,11 +19,11 @@ One of the important challenges of Feature learning using deep CNNs in Face Reco
 # Parameters
  - `extend_param`
       - `batch_size` : This is the batch-size of the data you want to input.
-      - `engine_serialize` : Whether or not the engine is created.
-         - This parameter determines whether to build a SoyNet engine or not.
-         - If you run it for the first time, set engine_serialize to 1.
-         - Also, if you edit the extend parameter, set engine_serialize to 1.
-         - Set to 0 after engine is created.
+      - `engine_serialize` : Whether or not the engine is created. (default : 0)
+         - 0: Load existing engine file.
+         - 1 : Create engine file from weight file. you need to set value to in following cases.
+            - Change extended param.
+            - Change weight file.
       - `cfg_file` : The path to cfg_file.
       - `weight_file` : The path to weight_file.
       - `engine_file` : The path to engine_file.
@@ -38,7 +38,7 @@ One of the important challenges of Feature learning using deep CNNs in Face Reco
 $ git clone https://github.com/soynet-support/SoyNet_model_market.git
 ```
 
-* download pre-trained weight files (already converted to SoyNet)
+* download pre-trained weight files (already converted for SoyNet)
 
 ```
 $ cd SoyNet_model_market/models/ArcFace/weights && bash ./download_weights.sh
@@ -54,7 +54,7 @@ If you cannot create an engine, review the configuration settings again.
 
 It is possible to create a C++ executable file.
 
-Contact [SoyNet](https://market.soymlops.com/#/contact-us).
+Contact [SOYNET](https://market.soymlops.com/#/contact-us).
 
 
 # Reference
