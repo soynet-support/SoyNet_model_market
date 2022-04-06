@@ -91,11 +91,7 @@ The models folder contains a detailed description.
 
 ## Model List
 #### Classification
-<table>
-  <tr>
-    <td width="200">TEST✖️✔</td>
-  </tr>
-</table>
+
 <table>
   <tr>
     <th rowspan="2" align=center width="300">Model</td>
