@@ -450,3 +450,7 @@ The models folder contains a detailed description.
 </table>
 
 The model will be added continuously, so please contact [SoyNet](https://soynet.io/en/) for the **Custom Model**.
+
+## Contact
+For business inquiries or professional support requests please visit [SoyNet](https://market.soymlops.com/#/).
+
