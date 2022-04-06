@@ -109,44 +109,44 @@ The models folder contains a detailed description.
       </tr>
   </tr>
   <tr>
-    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/EfficientNet_pytorch">EfficientNet - Pytorch</a>.</td>
-    <td align=center><a href="https://github.com/lukemelas/EfficientNet-PyTorch">LINK</a>.</td>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/EfficientNet_pytorch">EfficientNet - Pytorch</a></td>
+    <td align=center><a href="https://github.com/lukemelas/EfficientNet-PyTorch">LINK</a></td>
    <td align=center>✔</td>
    <td align=center>✔</td>
    <td align=center></td>
   </tr>
     <tr>
-    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/EfficientNet_TensorFlow">EfficientNet - TensorFlow</a>.</td>
-    <td align=center><a href="https://github.com/qubvel/efficientnet#models">LINK</a>.</td>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/EfficientNet_TensorFlow">EfficientNet - TensorFlow</a></td>
+    <td align=center><a href="https://github.com/qubvel/efficientnet#models">LINK</a></td>
    <td align=center>✔</td>
    <td align=center>✔</td>
    <td align=center></td>
   </tr>
   </tr>
     <tr>
-    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Inception_resnet_v2">Inception ResNet V2</a>.</td>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Inception_resnet_v2">Inception ResNet V2</a></td>
     <td align=center></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
     <td align=center></td>
   </tr>
   <tr>
-    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/VGG">VGG</a>.</td>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/VGG">VGG</a></td>
     <td align=center></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
     <td align=center></td>
   </tr>
    <tr>
-    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/SENet_legacy_senet">SENet</a>.</td>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/SENet_legacy_senet">SENet</a></td>
     <td align=center></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
     <td align=center></td>
   </tr>
   <tr>
-    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Mobilenet_V2">MobileNet V2</a>.</td>
-    <td align=center><a href="https://pytorch.org/vision/stable/_modules/torchvision/models/mobilenetv2.html">LINK</a>.</td>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Mobilenet_V2">MobileNet V2</a></td>
+    <td align=center><a href="https://pytorch.org/vision/stable/_modules/torchvision/models/mobilenetv2.html">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
     <td align=center></td>
@@ -154,75 +154,305 @@ The models folder contains a detailed description.
 </table>
 
 #### Object Detection
-
-
-## Model List
-#### Classification
-|Model|
-|---|
-|[EfficientNet - Pytorch](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/EfficientNet_pytorch)|
-|[EfficientNet - TensorFlow](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/EfficientNet_TensorFlow)|
-|[Inception ResNet V2](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Inception_resnet_v2)|
-|[VGG](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/VGG)|
-|[SENet](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/SENet_legacy_senet)|
-|[MobileNet V2](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Mobilenet_V2)|
-
-#### Object Detection
-|Model|
-|---|
-|[Faster RCNN](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Detectron2_Faster-RCNN)|
-|[RetinaFace](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/RetinaFace)|
-|[EfficientDet](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/EfficientDet)|
-|[SSD MobileNet](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/SSD_Mobilenet)|
-|[Yolo V3](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov3)|
-|[Yolo V4](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov4)|
-|[Yolo V5-l](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5-6.0-l)|
-|[Yolo V5-m](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5-6.0-m)|
-|[Yolo V5-n](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5-6.0-n)|
-|[Yolo V5-s](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5-6.0-s)|
-|[Yolo V5-x](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5-6.0-x)|
-|[Yolo V5-l6](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5-6.0-l6)|
-|[Yolo V5-m6](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5-6.0-m6)|
-|[Yolo V5 Face](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5_Face)|
-|[Yolor](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolor)|
+<table>
+  <tr>
+    <th rowspan="2" align=center width="300">Model</td>
+    <th rowspan="2" align=center width="200">Site Reference</td>
+    <th colspan="3" align=center width="600">Support Platform</td>
+      <tr>
+         <th align=center width="200">X86_Linux</td>
+         <th align=center width="200">X86_Windows</td>
+         <th align=center width="200">Jetson_Linux</td>
+      </tr>
+  </tr>
+  <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Detectron2_Faster-RCNN">Faster RCNN</a></td>
+    <td align=center><a href="https://github.com/facebookresearch/detectron2">LINK</a></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
+  <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/RetinaFace">RetinaFace</a></td>
+    <td align=center><a href="https://github.com/biubug6/Pytorch_Retinaface">LINK</a></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
+  <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/EfficientDet">EfficientDet</a></td>
+    <td align=center><a href="https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch">LINK</a></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
+  <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/SSD_Mobilenet">SSD MobileNet</a></td>
+    <td align=center><a href="https://github.com/tensorflow/models/tree/master/research/object_detection">LINK</a></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
+  <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov3">Yolo V3</a></td>
+    <td align=center><a href="https://github.com/AlexeyAB/darknet">LINK</a></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
+  <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov4">Yolo V4</a></td>
+    <td align=center><a href="https://github.com/AlexeyAB/darknet">LINK</a></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
+  <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5-6.1-l">Yolo V5-l</a></td>
+    <td align=center><a href="https://github.com/ultralytics/yolov5/releases/tag/v6.1">LINK</a></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
+  <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5-6.1-m">Yolo V5-m</a></td>
+    <td align=center><a href="https://github.com/ultralytics/yolov5/releases/tag/v6.1">LINK</a></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
+  <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5-6.1-n">Yolo V5-n</a></td>
+    <td align=center><a href="https://github.com/ultralytics/yolov5/releases/tag/v6.1">LINK</a></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
+  <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5-6.1-s">Yolo V5-s</a></td>
+    <td align=center><a href="https://github.com/ultralytics/yolov5/releases/tag/v6.1">LINK</a></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
+  <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5-6.1-x">Yolo V5-x</a></td>
+    <td align=center><a href="https://github.com/ultralytics/yolov5/releases/tag/v6.1">LINK</a></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
+  <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5-6.1-l6">Yolo V5-l6</a></td>
+    <td align=center><a href="https://github.com/ultralytics/yolov5/releases/tag/v6.1">LINK</a></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
+  <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5-6.1-m6">Yolo V5-m6</a></td>
+    <td align=center><a href="https://github.com/ultralytics/yolov5/releases/tag/v6.1">LINK</a></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
+  <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5_Face">Yolo V5 Face</a></td>
+    <td align=center><a href="https://morioh.com/p/b101507afdf5">LINK</a></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
+  <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolor">Yolor</a></td>
+    <td align=center><a href="https://github.com/WongKinYiu/yolor">LINK</a></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
+</table>
 
 #### Object Tracking
-|Model|
-|---|
-|[FairMot](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/FairMot)|
+<table>
+  <tr>
+    <th rowspan="2" align=center width="300">Model</td>
+    <th rowspan="2" align=center width="200">Site Reference</td>
+    <th colspan="3" align=center width="600">Support Platform</td>
+      <tr>
+         <th align=center width="200">X86_Linux</td>
+         <th align=center width="200">X86_Windows</td>
+         <th align=center width="200">Jetson_Linux</td>
+      </tr>
+  </tr>
+  <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/FairMot">FairMot</a></td>
+    <td align=center><a href="https://github.com/ifzhang/FairMOT">LINK</a></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
+</table>
 
 #### Pose Estimation
-|Model|
-|---|
-|[Pose RCNN](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Detectron2_Pose-RCNN)|
-|[OpenPose](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Openpose-Darknet)|
+<table>
+  <tr>
+    <th rowspan="2" align=center width="300">Model</td>
+    <th rowspan="2" align=center width="200">Site Reference</td>
+    <th colspan="3" align=center width="600">Support Platform</td>
+      <tr>
+         <th align=center width="200">X86_Linux</td>
+         <th align=center width="200">X86_Windows</td>
+         <th align=center width="200">Jetson_Linux</td>
+      </tr>
+  </tr>
+  <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Detectron2_Pose-RCNN">Pose RCNN</a></td>
+    <td align=center><a href="https://github.com/facebookresearch/detectron2">LINK</a></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
+  <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Openpose-Darknet">OpenPose</a></td>
+    <td align=center><a href="https://github.com/lincolnhard/openpose-darknet">LINK</a></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
+</table>
 
 #### Segmentation
-|Model|
-|---|
-|[Mask RCNN](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Detectron2_Mask-RCNN)|
-|[Yolact](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolact)|
-|[Yolact++](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolact%2B%2B)|
+<table>
+  <tr>
+    <th rowspan="2" align=center width="300">Model</td>
+    <th rowspan="2" align=center width="200">Site Reference</td>
+    <th colspan="3" align=center width="600">Support Platform</td>
+      <tr>
+         <th align=center width="200">X86_Linux</td>
+         <th align=center width="200">X86_Windows</td>
+         <th align=center width="200">Jetson_Linux</td>
+      </tr>
+  </tr>
+  <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Detectron2_Mask-RCNN">Mask RCNN</a></td>
+    <td align=center><a href="https://github.com/facebookresearch/detectron2">LINK</a></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
+  <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolact">Yolact</a></td>
+    <td align=center><a href="https://github.com/dbolya/yolact">LINK</a></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
+  <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolact%2B%2B">Yolact++</a></td>
+    <td align=center><a href="https://github.com/dbolya/yolact">LINK</a></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
+</table>
 
 #### GAN
-|Model|
-|---|
-|[FAnoGan](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/FAnoGan)|
-|[CycleGan](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/CycleGan)|
-|[pix2pix](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/pix2pix)|
-|[IDN](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/IDN)|
-|[Glean](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/glean)|
+<table>
+  <tr>
+    <th rowspan="2" align=center width="300">Model</td>
+    <th rowspan="2" align=center width="200">Site Reference</td>
+    <th colspan="3" align=center width="600">Support Platform</td>
+      <tr>
+         <th align=center width="200">X86_Linux</td>
+         <th align=center width="200">X86_Windows</td>
+         <th align=center width="200">Jetson_Linux</td>
+      </tr>
+  </tr>
+  <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/FAnoGan">FAnoGan</a></td>
+    <td align=center><a href="https://github.com/mulkong/f-AnoGAN_with_Pytorch">LINK</a></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
+  <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/CycleGan">CycleGan</a></td>
+    <td align=center><a href="https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix">LINK</a></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
+  <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/pix2pix">pix2pix</a></td>
+    <td align=center><a href="https://github.com/phillipi/pix2pix">LINK</a></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
+  <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/IDN">IDN</a></td>
+    <td align=center><a href="https://github.com/yjn870/IDN-pytorch">LINK</a></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
+  <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Glean">Glean</a></td>
+    <td align=center><a href="https://github.com/open-mmlab/mmediting/tree/master/configs/restorers/glean">LINK</a></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
+</table>
 
 #### NLP
-|Model|
-|---|
-|[Transformers MaskedLM](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Transformers_MaskedLM)|
+<table>
+  <tr>
+    <th rowspan="2" align=center width="300">Model</td>
+    <th rowspan="2" align=center width="200">Site Reference</td>
+    <th colspan="3" align=center width="600">Support Platform</td>
+      <tr>
+         <th align=center width="200">X86_Linux</td>
+         <th align=center width="200">X86_Windows</td>
+         <th align=center width="200">Jetson_Linux</td>
+      </tr>
+  </tr>
+  <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Transformers_MaskedLM">Transformers MaskedLM</a></td>
+    <td align=center><a href="https://github.com/huggingface/transformers">LINK</a></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
+</table>
 
 #### ETC
-|Model|
-|---|
-|[ArcFace](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/ArcFace)|
-|[Eca NFNet](https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Eca_NFNet)|
+<table>
+  <tr>
+    <th rowspan="2" align=center width="300">Model</td>
+    <th rowspan="2" align=center width="200">Site Reference</td>
+    <th colspan="3" align=center width="600">Support Platform</td>
+      <tr>
+         <th align=center width="200">X86_Linux</td>
+         <th align=center width="200">X86_Windows</td>
+         <th align=center width="200">Jetson_Linux</td>
+      </tr>
+  </tr>
+  <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/ArcFace">ArcFace</a></td>
+    <td align=center><a href="https://github.com/ronghuaiyang/arcface-pytorch">LINK</a></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
+  <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Eca_NFNet">Eca NFNet</a></td>
+    <td align=center><a href="https://www.kaggle.com/h053473666/2class-infer-batch-20">LINK</a></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center></td>
+  </tr>
+</table>
 
 The model will be added continuously, so please contact [SoyNet](https://soynet.io/en/) for the **Custom Model**.
 
