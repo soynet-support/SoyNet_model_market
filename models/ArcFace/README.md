@@ -41,13 +41,7 @@ $ git clone https://github.com/soynet-support/SoyNet_model_market.git
 * download pre-trained weight files (already converted to SoyNet)
 
 ```
-$ cd ~/SoyNet_model_market/weights && bash ./download_weights.sh
-```
-
-* set environment parameter
-
-```
-$ LD_LIBRARY_PATH=~/SoyNet_model_market/lib:$LD_LIBRARY_PATH
+$ cd SoyNet_model_market/weights && bash ./download_weights.sh
 ```
 
 * Run
