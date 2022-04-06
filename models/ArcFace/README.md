@@ -30,7 +30,7 @@ One of the important challenges of Feature learning using deep CNNs in Face Reco
       - `log_file` :  The path to log_file.
       - `model_height`, `model_width` : Data size before entering the model.
 
-# Install SoyNet Demo
+# Start SoyNet Demo Examples
 
 * Clone github repository
 
