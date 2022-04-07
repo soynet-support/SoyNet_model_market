@@ -1,5 +1,6 @@
 # Yolov5_Face Model Overview
 YOLOv5 is a family of object detection architectures and models pretrained on the COCO dataset, and represents Ultralytics open-source research into future vision AI methods, incorporating lessons learned and best practices evolved over thousands of hours of research and development.  
+  
 YOLOv5x is the biggest model in YOLOv5.
 
 # Prerequisites
@@ -27,8 +28,7 @@ YOLOv5x is the biggest model in YOLOv5.
       - `nms_count` : Number of NMS (Non-maximum Suppression)
       - `region_count` : Number to be used for NMS(Non-maximum Suppression)
       - `input_height`, `input_width` : Data size before entering preproc.
-      - `model_height`, `model_width` : Data size before entering the model.
-      - `resize_ratio` : The ratio that will resize from model size to input size
+      - `model_size` : Data size before entering the model.
       - `cfg_file` : The path to cfg_file.
       - `weight_file` : The path to weight_file.
       - `engine_file` : The path to engine_file.
