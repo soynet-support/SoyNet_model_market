@@ -1,6 +1,7 @@
 # Yolov5_Face Model Overview
-The Mask R-CNN has a structure that adds a mask branch to the Fast R-CNN that predicts the segmentation mask. In order to perform segmentation tasks more effectively, the paper added a RoIallign layer that preserves the specific location of the object.
-
+The Yolov5-Face implement a face detector based on the YOLOv5 object detector.  
+It has a few key modifications to the YOLOv5 and is optimized for face detection.
+ 
 # Prerequisites
 
 #### NVIDA Development Environment
