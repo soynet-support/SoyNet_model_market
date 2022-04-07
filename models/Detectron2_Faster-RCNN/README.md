@@ -1,7 +1,6 @@
 # Faster RCNN Model Overview
-Arc Face is face recognition Model.
-This proposed a new loss function to improve facial recognition performance.
-One of the important challenges of Feature learning using deep CNNs in Face Recognition is designing appropriate loss functions that improve discernment.
+Because Fast R-CNN models still extract region proposals through the Selective search algorithm, there is a limit to improving learning and detection speed.
+To address these issues, Faster R-CNN introduces the Region Proposal Network (RPN), a network that performs candidate region extraction operations.
 
 # Prerequisites
 
