@@ -24,7 +24,6 @@ The Cycle Generative Adversarial Network, or CycleGAN, is an approach to trainin
          - 1 : Create engine file from weight file. you need to set value to in following cases.
             - Change extended param.
             - Change weight file.
-      - `cfg_file` : The path to cfg_file.
       - `weight_file` : The path to weight_file.
       - `engine_file` : The path to engine_file.
       - `log_file` :  The path to log_file.
