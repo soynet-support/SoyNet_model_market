@@ -1,5 +1,5 @@
 # EfficientDet Model Overview
-
+EfficientDet is a type of object detection model, which utilizes several optimization and backbone tweaks, such as the use of a BiFPN, and a compound scaling method that uniformly scales the resolution,depth and width for all backbones, feature networks and box/class prediction networks at the same time.
 
 # Prerequisites
 
