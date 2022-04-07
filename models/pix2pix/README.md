@@ -22,15 +22,12 @@ The Pix2Pix is a Generative Adversarial Network, or GAN, model designed for gene
          - 1 : Create engine file from weight file. you need to set value to in following cases.
             - Change extended param.
             - Change weight file.
-      - `cfg_file` : The path to cfg_file.
+      - `nfg` : Number of filters for the first layer of the generator model. (default 64)
+      - `model_height`, `model_width` : Data size before entering the model.
       - `weight_file` : The path to weight_file.
       - `engine_file` : The path to engine_file.
       - `log_file` :  The path to log_file.
-      - `input_height`, `input_width` : Data size before entering preproc.
-      - `model_height`, `model_width` : Data size before entering the model.
-      - `class_count` : Number of classes
-      - `nms_count` : Number of NMS (Non-maximum Suppression)
-
+      
 # Start SoyNet Demo Examples
 
 * Clone github repository
