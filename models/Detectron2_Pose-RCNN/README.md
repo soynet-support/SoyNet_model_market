@@ -1,4 +1,5 @@
-# Detectron2_Mask-RCNN Model Overview ####(ING)
+# Detectron2_Pose-RCNN Model Overview ####(ING)
+
 
 # Prerequisites
 
