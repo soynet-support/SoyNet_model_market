@@ -1,5 +1,5 @@
-# Detectron2_Pose-RCNN Model Overview ####(ING)
-
+# Detectron2_Pose-RCNN Model Overview
+Keypoint detection involves simultaneously detecting people and localizing their keypoints. Keypoints are the same thing as interest points. They are spatial locations, or points in the image that define what is interesting or what stand out in the image. They are invariant to image rotation, shrinkage, translation, distortion, and so on.
 
 # Prerequisites
 
