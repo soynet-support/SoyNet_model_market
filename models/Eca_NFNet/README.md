@@ -26,7 +26,7 @@
       - `weight_file` : The path to weight_file.
       - `engine_file` : The path to engine_file.
       - `log_file` :  The path to log_file.
-      - `input_height`, `input_width` : Data size before entering preproc.
+      - `model_height`, `model_width` : Data size before entering the model.
       - `class_count` : Number of classes
       - `nms_count` : Number of NMS (Non-maximum Suppression)
       - `keypoint_count` : Number of Keypoint
