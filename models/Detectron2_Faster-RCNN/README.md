@@ -27,6 +27,8 @@ To address these issues, Faster R-CNN introduces the Region Proposal Network (RP
       - `engine_file` : The path to engine_file.
       - `log_file` :  The path to log_file.
       - `input_height`, `input_width` : Data size before entering preproc.
+      - `class_count` : Number of classes
+      - `nms_count` : Number of NMS (Non-maximum Suppression)
 
 # Start SoyNet Demo Examples
 
