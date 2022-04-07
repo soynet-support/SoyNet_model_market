@@ -27,9 +27,6 @@
       - `engine_file` : The path to engine_file.
       - `log_file` :  The path to log_file.
       - `model_height`, `model_width` : Data size before entering the model.
-      - `class_count` : Number of classes
-      - `nms_count` : Number of NMS (Non-maximum Suppression)
-      - `keypoint_count` : Number of Keypoint
 
 # Start SoyNet Demo Examples
 
