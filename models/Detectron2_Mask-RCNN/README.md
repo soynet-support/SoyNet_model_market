@@ -1,4 +1,5 @@
 # Detectron2_Mask-RCNN Model Overview
+The Mask R-CNN has a structure that adds a mask branch to the Fast R-CNN that predicts the segmentation mask. In order to perform segmentation tasks more effectively, the paper added a RoIallign layer that preserves the specific location of the object.
 
 # Prerequisites
 
