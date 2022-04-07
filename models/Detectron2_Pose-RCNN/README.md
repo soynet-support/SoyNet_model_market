@@ -26,7 +26,9 @@
       - `engine_file` : The path to engine_file.
       - `log_file` :  The path to log_file.
       - `input_height`, `input_width` : Data size before entering preproc.
-      - 
+      - `class_count` : Number of classes
+      - `nms_count` : Number of NMS (Non-maximum Suppression)
+      - `keypoint_count` : Number of Keypoint
 
 # Start SoyNet Demo Examples
 
@@ -39,13 +41,13 @@ $ git clone https://github.com/soynet-support/SoyNet_model_market.git
 * download pre-trained weight files (already converted for SoyNet)
 
 ```
-$ cd SoyNet_model_market/models/Detectron2_Mask-RCNN/weights && bash ./download_weights.sh
+$ cd SoyNet_model_market/models/Detectron2_Pose-RCNN/weights && bash ./download_weights.sh
 ```
 
 * Run
 ```
 $ cd ../../../samples
-$ python Detectron2_Mask-RCNN.py 
+$ python Detectron2_Pose-RCNN.py 
 ```
 
 If you cannot create an engine, review the configuration settings again.
