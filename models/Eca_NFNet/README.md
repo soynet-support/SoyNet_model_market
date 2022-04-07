@@ -1,5 +1,6 @@
 # Eca_NFNet Model Overview
-
+NFNets (short for Normalizer-Free Networks) achieves comparable accuracy to EfficientNet-B7, while having a whopping 8.7x faster train time.
+This improvement in training speed was partly achieved by replacing batch normalization with other techniques.
 
 # Prerequisites
 
@@ -55,7 +56,7 @@ It is possible to create a C++ executable file.
 Contact [SOYNET](https://market.soymlops.com/#/contact-us).
 
 # Reference
- - [Original Code](https://github.com/facebookresearch/detectron2)
+ - [Original Code](https://github.com/vballoli/nfnets-pytorch)
 
 
 
