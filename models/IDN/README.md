@@ -1,5 +1,6 @@
 # IDN Model Overview
 The proposed IDN consists of three parts: a feature extraction block (FBlock), multiple stacked information distillation blocks (DBlocks) and a reconstruction block (RBlock).
+By combining an enhancement unit with a compression unit into a distillation block, the local long and short-path features can be effectively extracted.
 
 # Prerequisites
 
