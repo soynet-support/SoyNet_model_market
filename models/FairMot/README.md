@@ -1,5 +1,5 @@
-# FairMot Model Overview (####ing)
-
+# FairMot Model Overview (ing)
+The purpose of MOT is to estimate the trajectories of several objects of interest in a continuous frame. A good tracking of the object's trajectory can be widely applied in areas such as Action Recognition, Sport Video Analysis, Elderly Care, and Human Computer Interaction.
 
 # Prerequisites
 
@@ -29,7 +29,6 @@
       - `input_height`, `input_width` : Data size before entering preproc.
       - `model_height`, `model_width` : Data size before entering the model.
       - `class_count` : Number of classes.
-      - `nms_count` : Number of NMS (Non-maximum Suppression).
 
 # Start SoyNet Demo Examples
 
