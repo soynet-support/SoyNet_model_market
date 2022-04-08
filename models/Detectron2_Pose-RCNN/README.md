@@ -27,9 +27,9 @@ Keypoint detection involves simultaneously detecting people and localizing their
       - `engine_file` : The path to engine_file.
       - `log_file` :  The path to log_file.
       - `input_height`, `input_width` : Data size before entering preproc.
-      - `class_count` : Number of classes
-      - `nms_count` : Number of NMS (Non-maximum Suppression)
-      - `keypoint_count` : Number of Keypoint
+      - `class_count` : Number of classes.
+      - `nms_count` : Number of NMS (Non-maximum Suppression).
+      - `keypoint_count` : Number of Keypoint.
 
 # Start SoyNet Demo Examples
 
