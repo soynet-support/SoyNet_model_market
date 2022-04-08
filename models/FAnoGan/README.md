@@ -1,5 +1,5 @@
 # FAnoGan Model Overview
-
+f-AnoGAN is a GAN for anomaly detection. One of the features of this GAN is that two adversarial networks (Generator and Discriminator) and Encoder are trained separately. In addition, an anomaly score is computed by both a discriminator feature residual error and an image reconstruction error.
 
 # Prerequisites
 
