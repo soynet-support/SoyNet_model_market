@@ -26,7 +26,8 @@ Keypoint detection involves simultaneously detecting people and localizing their
       - `weight_file` : The path to weight_file.
       - `engine_file` : The path to engine_file.
       - `log_file` :  The path to log_file.
-      - `class_count` : Number of classes
+      - `model_height`, `model_width` : Data size before entering the model.
+      - `class_count` : Number of classes.
 
 # Start SoyNet Demo Examples
 
