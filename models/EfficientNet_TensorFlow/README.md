@@ -1,5 +1,5 @@
 # EfficientNet Model Overview
-Keypoint detection involves simultaneously detecting people and localizing their keypoints. Keypoints are the same thing as interest points. They are spatial locations, or points in the image that define what is interesting or what stand out in the image. They are invariant to image rotation, shrinkage, translation, distortion, and so on.
+When increasing the accuracy of a model, you typically adjust (1) the depth of the model, (2) the width, and (3) the size of the input image. Previously, we adjusted these three things manually, so we didn't get optimal performance and efficiency. EfficientNet proposes a comprehensive scaling method that can efficiently adjust three things. Experimentally discover that depth, width, and input image size have a constant relationship, and make this relationship a formula.
 
 # Prerequisites
 
