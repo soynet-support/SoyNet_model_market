@@ -1,5 +1,6 @@
-# Pix2Pix Model Overview
-The Pix2Pix is a Generative Adversarial Network, or GAN, model designed for general purpose image-to-image translation.
+# Transformers_MaskedLM Model Overview
+It is an algorithm that supports both two-way learning models for understanding natural language.
+As a pre-training method, it is said to perform better than Word2Vec, GloVe, and Fasttext, the embedding method used before BERT appeared.
 
 # Prerequisites
 
@@ -22,8 +23,7 @@ The Pix2Pix is a Generative Adversarial Network, or GAN, model designed for gene
          - 1 : Create engine file from weight file. you need to set value to in following cases.
             - Change extended param.
             - Change weight file.
-      - `nfg` : Number of filters for the first layer of the generator model. (default 64)
-      - `model_height`, `model_width` : Data size before entering the model.
+      - `data_length` : Data Length.
       - `weight_file` : The path to weight_file.
       - `engine_file` : The path to engine_file.
       - `log_file` :  The path to log_file.
@@ -39,13 +39,13 @@ $ git clone https://github.com/soynet-support/SoyNet_model_market.git
 * download pre-trained weight files (already converted for SoyNet)
 
 ```
-$ cd SoyNet_model_market/models/pix2pix/weights && bash ./download_weights.sh
+$ cd SoyNet_model_market/models/Transformers_MaskedLM/weights && bash ./download_weights.sh
 ```
 
 * Run
 ```
 $ cd ../../../samples
-$ python Pix2Pix.py 
+$ python Transformers_MaskedLM.py 
 ```
 
 If you cannot create an engine, review the configuration settings again.
@@ -55,4 +55,4 @@ It is possible to create a C++ executable file.
 Contact [SOYNET](https://market.soymlops.com/#/contact-us).
 
 # Reference
- - [Original Code](https://github.com/phillipi/pix2pix)
+ - [Original Code](https://github.com/huggingface/transformers)
