@@ -1,4 +1,4 @@
-# Openpose-Darknet Model Overview
+# Openpose_Darknet Model Overview
 Keypoint detection involves simultaneously detecting people and localizing their keypoints. Keypoints are the same thing as interest points. They are spatial locations, or points in the image that define what is interesting or what stand out in the image. They are invariant to image rotation, shrinkage, translation, distortion, and so on.
 
 # Prerequisites
@@ -40,7 +40,7 @@ $ git clone https://github.com/soynet-support/SoyNet_model_market.git
 * download pre-trained weight files (already converted for SoyNet)
 
 ```
-$ cd SoyNet_model_market/models/Openpose-Darknet/weights && bash ./download_weights.sh
+$ cd SoyNet_model_market/models/Openpose_Darknet/weights && bash ./download_weights.sh
 ```
 
 * Run
