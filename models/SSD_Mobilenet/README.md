@@ -1,4 +1,5 @@
 # SSD_Mobilenet Model Overview
+SSD Mobilenet V2 is a one-stage object detection model which has gained popularity for its lean network and novel depthwise separable convolutions. It is a model commonly deployed on low compute devices such as mobile (hence the name Mobilenet) with high accuracy performance.
 
 # Prerequisites
 
