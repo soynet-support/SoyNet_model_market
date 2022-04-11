@@ -42,7 +42,7 @@ $ git clone https://github.com/soynet-support/SoyNet_model_market.git
 * download pre-trained weight files (already converted for SoyNet)
 
 ```
-$ cd SoyNet_model_market/models/Inception_resnet_v2/weights && bash ./download_weights.sh
+$ cd SoyNet_model_market/models/Mobilenet_V2/weights && bash ./download_weights.sh
 ```
 
 * Run
