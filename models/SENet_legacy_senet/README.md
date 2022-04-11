@@ -1,4 +1,5 @@
 # SENet_legacy_senet Model Overview
+The SENet paper suggests that it is an SE block that can be applied to any existing model. It is intended to improve performance by adding SE block to VGGNet, GogLeNet, ResNet, etc. The increase in computation is not significant because the hyperparameter does not increase much, while the performance improves significantly.
 
 # Prerequisites
 
