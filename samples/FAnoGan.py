@@ -38,9 +38,7 @@ if __name__ == "__main__":
 
     # Read Test Data
     img = cv.imread("../data/1280x1920.jpg")
-    if img is None:
-        print("Image is None!")
-        sys.exit()
+
     rgb = cv.cvtColor(img, cv.COLOR_BGR2RGB)
 
     # Resize Image
