@@ -46,9 +46,6 @@ if __name__ == "__main__":
 
     # Read Test Data
     img = cv.imread("../data/t1_1280x960.jpg")
-    if img is None:
-        print("Image is None!")
-        sys.exit()
 
     # Resize Image
     resized_img = cv.resize(img, (input_width, input_height))
