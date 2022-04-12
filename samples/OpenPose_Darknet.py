@@ -39,9 +39,7 @@ if __name__ == "__main__":
 
     # Read Test Data
     img = cv.imread("../data/NY_720x1280.jpg")
-    if img is None:
-        print("Image is None!")
-        sys.exit()
+
     neww, newh = CreateNetsizeImage(img, 200, 200, 0)
     resized_img = np.zeros(shape=(200, 200, 3), dtype=np.uint8)
     resized_img[:newh, :neww, :] = cv.resize(img, (neww, newh))
