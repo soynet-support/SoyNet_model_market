@@ -1,4 +1,4 @@
-# Yolov5_Face Model Overview
+# Yolov4 Model Overview
 YOLOv4 is a family of object detection architectures and maximizes YOLO's performance by applying various methods to improve the accuracy of deep learning after YOLOv3.
  
 # Prerequisites
