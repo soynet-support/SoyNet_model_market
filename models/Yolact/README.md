@@ -1,5 +1,5 @@
-# Detectron2_Mask-RCNN Model Overview
-The Mask R-CNN has a structure that adds a mask branch to the Fast R-CNN that predicts the segmentation mask. In order to perform segmentation tasks more effectively, the paper added a RoIallign layer that preserves the specific location of the object.
+# Yolact Model Overview
+yolact presents a simple convolutional model to perform instance segmentation. Initially, we generate a set of prototype masks and predict the instance-specific mask coefficients. The prototype is then combined linearly with the mask coefficient to generate an instance mask. This process is said to be capable of producing high-quality masks because it does not depend on repooling.
 
 # Prerequisites
 
@@ -42,13 +42,13 @@ $ git clone https://github.com/soynet-support/SoyNet_model_market.git
 * download pre-trained weight files (already converted for SoyNet)
 
 ```
-$ cd SoyNet_model_market/models/Detectron2_Mask-RCNN/weights && bash ./download_weights.sh
+$ cd SoyNet_model_market/models/Yolact/weights && bash ./download_weights.sh
 ```
 
 * Run
 ```
 $ cd ../../../samples
-$ python Detectron2_Mask-RCNN.py 
+$ python Yolact.py 
 ```
 
 If you cannot create an engine, review the configuration settings again.
@@ -58,5 +58,5 @@ It is possible to create a C++ executable file.
 Contact [SOYNET](https://market.soymlops.com/#/contact-us).
 
 # Reference
- - [Original Code](https://github.com/facebookresearch/detectron2)
+ - [Original Code](https://github.com/dbolya/yolact)
 
