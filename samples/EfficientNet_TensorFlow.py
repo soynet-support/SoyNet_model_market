@@ -43,9 +43,6 @@ if __name__ == "__main__":
 
     # Read Test Data
     img = cv.imread("../data/panda5.jpg")
-    if img is None:
-        print("Image is None!")
-        sys.exit()
 
     # Resize Image
     resized_img = cv.resize(img, (model_width, model_height))
