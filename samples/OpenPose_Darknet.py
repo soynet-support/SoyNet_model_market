@@ -58,3 +58,6 @@ if __name__ == "__main__":
 
     # Post-Processing
     print("Output Shape: {}".format(output.shape))
+    
+    # destroy SoyNet handle
+    freeSoyNet(handle)
