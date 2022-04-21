@@ -70,3 +70,5 @@ if __name__ == "__main__":
                 n_idx, x1 * input_width, y1 * input_height, x2 * input_width, y2 * input_height,
                 obj_id, prob, class_names[obj_id]))
 
+    # destroy SoyNet handle
+    freeSoyNet(handle)
