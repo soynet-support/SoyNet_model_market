@@ -57,3 +57,6 @@ if __name__ == "__main__":
     getOutput(handle, output)
 
     print("Output Shape: {}".format(output.shape))      # [N, C, H, W]
+    
+    # destroy SoyNet handle
+    freeSoyNet(handle)
