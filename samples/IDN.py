@@ -62,3 +62,6 @@ if __name__ == "__main__":
         result = np.transpose(output[n], (1, 2, 0))
 
     print("Output Shape: {}".format(output.shape))
+
+    # destroy SoyNet handle
+    freeSoyNet(handle)
