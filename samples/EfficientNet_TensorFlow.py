@@ -63,3 +63,6 @@ if __name__ == "__main__":
     max_idx = np.argmax(output)
 
     print("Max Value: {} \nMax Index: {} \nClass Name: {}".format(output[max_idx], max_idx, class_names[max_idx]))
+    
+    # destroy SoyNet handle
+    freeSoyNet(handle)
