@@ -71,3 +71,5 @@ if __name__ == "__main__":
             print("NMS_Num: {} \nx1: {} \ny1: {} \nx2: {} \ny2: {} \nobj_id: {} \nprob: {} \nClass_name: {}\n".format(
                 n_idx, x1, y1, x2, y2, obj_id, prob, class_names[obj_id]))
 
+    # destroy SoyNet handle
+    freeSoyNet(handle)
