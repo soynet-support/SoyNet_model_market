@@ -55,4 +55,7 @@ if __name__ == "__main__":
     getOutput(handle, output)
 
     print("\nFeatures :\n", output)
+    
+    # destroy SoyNet handle
+    freeSoyNet(handle)
 
