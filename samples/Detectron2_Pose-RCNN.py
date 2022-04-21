@@ -75,3 +75,6 @@ if __name__ == "__main__":
                 = keypoint[n_idx * 51: (n_idx + 1) * 51]
 
     print("Output Shape: {}".format(output.shape))
+
+    # destroy SoyNet handle
+    freeSoyNet(handle)
