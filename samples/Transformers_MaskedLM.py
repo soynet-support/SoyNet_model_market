@@ -52,3 +52,6 @@ if __name__ == "__main__":
     getOutput(handle, output)
 
     print('test')
+    
+    # destroy SoyNet handle
+    freeSoyNet(handle)
