@@ -105,13 +105,6 @@ The models folder contains a detailed description.
          <th align=center width="200">Jetson_Linux</td>
       </tr>
   </tr>
-  <tr>
-    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/EfficientNet_pytorch">EfficientNet - Pytorch</a></td>
-    <td align=center><a href="https://github.com/lukemelas/EfficientNet-PyTorch">LINK</a></td>
-   <td align=center>✔</td>
-   <td align=center>✔</td>
-   <td align=center></td>
-  </tr>
     <tr>
     <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/EfficientNet_TensorFlow">EfficientNet - TensorFlow</a></td>
     <td align=center><a href="https://github.com/qubvel/efficientnet#models">LINK</a></td>
