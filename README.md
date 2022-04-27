@@ -80,7 +80,7 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++.
  - OS : Ubuntu 18.04 LTS
  - Others : 
    - OpenCV (for reading video files and outputting the screen)
-   - Wget (for 'download_soynet_weight.sh' in [weights folder](#folder-structure)
+   - Wget (for 'download_soynet_weight.py' in [weights folder](#folder-structure)
 
 ## Getting Started
 Before proceeding, please refer to the [Folder Structure](#folder-structure) to see if the required files exist.
