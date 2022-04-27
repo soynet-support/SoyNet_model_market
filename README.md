@@ -48,7 +48,7 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++.
    └─utils              : Commonly-used functionand trial license
 ```
  - `engines` : it's made at the first time execution or when you modify the configs file.
- - `weights` : You can download .weights file from `download_soynet_weight.sh` in [weights folder](#folder-structure).
+ - `weights` : You can download .weights file from `download_soynet_weight.py` in [weights folder](#folder-structure).
  - `license file` : Please contact [SoyNet](https://soynet.io/en/) if the time has passed.
 
 ## SoyNet Function.
