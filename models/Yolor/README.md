@@ -63,3 +63,8 @@ Contact [SOYNET](https://market.soymlops.com/#/contact-us).
 
 # Reference
  - [Original Code](https://github.com/ultralytics/yolov5)
+
+# License for Original Model use
+
+Yolor is under GNU General Public License. 
+See License terms and condition: [License](https://github.com/WongKinYiu/yolor/blob/main/LICENSE)
