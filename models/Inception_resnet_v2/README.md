@@ -59,3 +59,7 @@ Contact [SOYNET](https://market.soymlops.com/#/contact-us).
   - [Original Code](https://rwightman.github.io/pytorch-image-models/models/inception-resnet-v2/)
 
 
+# License for Original Model use
+
+Inception ResNet v2 is under Apache License. 
+See License terms and condition: [License](https://github.com/Lornatang/ResNet-PyTorch/blob/master/LICENSE)
