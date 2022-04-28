@@ -110,7 +110,7 @@ The models folder contains a detailed description.
     <td align=center><a href="https://github.com/qubvel/efficientnet#models">LINK</a></td>
    <td align=center>✔</td>
    <td align=center>✔</td>
-   <td align=center></td>
+   <td align=center>✔</td>
   </tr>
   </tr>
     <tr>
