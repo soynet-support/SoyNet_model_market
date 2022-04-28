@@ -60,3 +60,7 @@ Contact [SOYNET](https://market.soymlops.com/#/contact-us).
 
 
 
+# License for Original Model use
+
+EfficientNet is under Apache License. 
+See License terms and condition: [License](https://github.com/lukemelas/EfficientNet-PyTorch/blob/master/LICENSE)
