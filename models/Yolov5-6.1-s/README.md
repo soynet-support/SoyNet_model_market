@@ -67,5 +67,5 @@ Contact [SOYNET](https://market.soymlops.com/#/contact-us).
 
 # License for Original Model use
 
-Yolov5_s is under GNU General Public License. 
+Yolov5 s is under GNU General Public License. 
 See License terms and condition: [License](https://github.com/ultralytics/yolov5/blob/master/LICENSE)
