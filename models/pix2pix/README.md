@@ -56,3 +56,7 @@ Contact [SOYNET](https://market.soymlops.com/#/contact-us).
 
 # Reference
  - [Original Code](https://github.com/phillipi/pix2pix)
+
+# License for Original Model use
+ 
+See License terms and condition: [License](https://github.com/phillipi/pix2pix/blob/master/LICENSE)
