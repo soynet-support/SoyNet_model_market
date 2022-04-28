@@ -118,28 +118,28 @@ The models folder contains a detailed description.
     <td align=center></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
   <tr>
     <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/VGG">VGG</a></td>
     <td align=center></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
    <tr>
     <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/SENet_legacy_senet">SENet</a></td>
     <td align=center></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
   <tr>
     <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Mobilenet_V2">MobileNet V2</a></td>
     <td align=center><a href="https://pytorch.org/vision/stable/_modules/torchvision/models/mobilenetv2.html">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
 </table>
 
@@ -160,105 +160,105 @@ The models folder contains a detailed description.
     <td align=center><a href="https://github.com/facebookresearch/detectron2">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
   <tr>
     <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/RetinaFace">RetinaFace</a></td>
     <td align=center><a href="https://github.com/biubug6/Pytorch_Retinaface">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
   <tr>
     <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/EfficientDet">EfficientDet</a></td>
     <td align=center><a href="https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
   <tr>
     <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/SSD_Mobilenet">SSD MobileNet</a></td>
     <td align=center><a href="https://github.com/tensorflow/models/tree/master/research/object_detection">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
   <tr>
     <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov3">Yolo V3</a></td>
     <td align=center><a href="https://github.com/AlexeyAB/darknet">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
   <tr>
     <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov4">Yolo V4</a></td>
     <td align=center><a href="https://github.com/AlexeyAB/darknet">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
   <tr>
     <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5-6.1-l">Yolo V5-l</a></td>
     <td align=center><a href="https://github.com/ultralytics/yolov5/releases/tag/v6.1">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
   <tr>
     <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5-6.1-m">Yolo V5-m</a></td>
     <td align=center><a href="https://github.com/ultralytics/yolov5/releases/tag/v6.1">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
   <tr>
     <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5-6.1-n">Yolo V5-n</a></td>
     <td align=center><a href="https://github.com/ultralytics/yolov5/releases/tag/v6.1">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
   <tr>
     <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5-6.1-s">Yolo V5-s</a></td>
     <td align=center><a href="https://github.com/ultralytics/yolov5/releases/tag/v6.1">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
   <tr>
     <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5-6.1-x">Yolo V5-x</a></td>
     <td align=center><a href="https://github.com/ultralytics/yolov5/releases/tag/v6.1">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
   <tr>
     <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5-6.1-l6">Yolo V5-l6</a></td>
     <td align=center><a href="https://github.com/ultralytics/yolov5/releases/tag/v6.1">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
   <tr>
     <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5-6.1-m6">Yolo V5-m6</a></td>
     <td align=center><a href="https://github.com/ultralytics/yolov5/releases/tag/v6.1">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
   <tr>
     <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolov5_Face">Yolo V5 Face</a></td>
     <td align=center><a href="https://morioh.com/p/b101507afdf5">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
   <tr>
     <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolor">Yolor</a></td>
     <td align=center><a href="https://github.com/WongKinYiu/yolor">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
 </table>
 
@@ -279,7 +279,7 @@ The models folder contains a detailed description.
     <td align=center><a href="https://github.com/ifzhang/FairMOT">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
 </table>
 
@@ -300,14 +300,14 @@ The models folder contains a detailed description.
     <td align=center><a href="https://github.com/facebookresearch/detectron2">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
   <tr>
     <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Openpose-Darknet">OpenPose</a></td>
     <td align=center><a href="https://github.com/lincolnhard/openpose-darknet">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
 </table>
 
@@ -328,21 +328,21 @@ The models folder contains a detailed description.
     <td align=center><a href="https://github.com/facebookresearch/detectron2">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
   <tr>
     <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolact">Yolact</a></td>
     <td align=center><a href="https://github.com/dbolya/yolact">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
   <tr>
     <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Yolact%2B%2B">Yolact++</a></td>
     <td align=center><a href="https://github.com/dbolya/yolact">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
 </table>
 
@@ -363,35 +363,35 @@ The models folder contains a detailed description.
     <td align=center><a href="https://github.com/mulkong/f-AnoGAN_with_Pytorch">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
   <tr>
     <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/CycleGan">CycleGan</a></td>
     <td align=center><a href="https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
   <tr>
     <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/pix2pix">Pix2Pix</a></td>
     <td align=center><a href="https://github.com/phillipi/pix2pix">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
   <tr>
     <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/IDN">IDN</a></td>
     <td align=center><a href="https://github.com/yjn870/IDN-pytorch">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
   <tr>
     <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Glean">Glean</a></td>
     <td align=center><a href="https://github.com/open-mmlab/mmediting/tree/master/configs/restorers/glean">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
 </table>
 
@@ -412,7 +412,7 @@ The models folder contains a detailed description.
     <td align=center><a href="https://github.com/huggingface/transformers">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
 </table>
 
@@ -433,14 +433,14 @@ The models folder contains a detailed description.
     <td align=center><a href="https://github.com/ronghuaiyang/arcface-pytorch">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
   <tr>
     <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Eca_NFNet">Eca NFNet</a></td>
     <td align=center><a href="https://www.kaggle.com/h053473666/2class-infer-batch-20">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
-    <td align=center></td>
+    <td align=center>✔</td>
   </tr>
 </table>
 
