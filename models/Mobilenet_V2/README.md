@@ -61,4 +61,7 @@ Contact [SOYNET](https://market.soymlops.com/#/contact-us).
   - [Original Code](https://pytorch.org/vision/stable/_modules/torchvision/models/mobilenetv2.html)
 
 
+# License for Original Model use
 
+Mobilenet V2 is under Apache License. 
+See License terms and condition: [License](https://github.com/tonylins/pytorch-mobilenet-v2/blob/master/LICENSE)
