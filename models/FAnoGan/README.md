@@ -58,4 +58,8 @@ Contact [SOYNET](https://market.soymlops.com/#/contact-us).
  - [Original Code](https://github.com/mulkong/f-AnoGAN_with_Pytorch)
 
 
+# License for Original Model use
+
+FAnoGan is under MIT License. 
+See License terms and condition: [License](https://github.com/tSchlegl/f-AnoGAN/blob/master/LICENSE)
 
