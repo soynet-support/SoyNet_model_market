@@ -64,3 +64,8 @@ Contact [SOYNET](https://market.soymlops.com/#/contact-us).
 
 # Reference
  - [Original Code](https://github.com/deepcam-cn/yolov5-face?ref=morioh.com&utm_source=morioh.com)
+
+# License for Original Model use
+
+Yolov5 Face is under GNU General Public License. 
+See License terms and condition: [License](https://github.com/deepcam-cn/yolov5-face/blob/master/LICENSE)
