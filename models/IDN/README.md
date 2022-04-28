@@ -62,5 +62,5 @@ Contact [SOYNET](https://market.soymlops.com/#/contact-us).
 
 # License for Original Model use
 
-IDN is under Apache Public License. 
+IDN is under Apache License. 
 See License terms and condition: [License](https://github.com/k41n/idn/blob/master/LICENSE)
