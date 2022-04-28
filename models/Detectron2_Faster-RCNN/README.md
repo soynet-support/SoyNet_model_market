@@ -60,3 +60,8 @@ Contact [SOYNET](https://market.soymlops.com/#/contact-us).
  - [Original Code](https://github.com/facebookresearch/detectron2)
  - [Paper](https://arxiv.org/abs/1506.01497)
 
+
+# License for Original Model use
+
+Faster R-CNN is under Apache License. 
+See License terms and condition: [License](https://github.com/facebookresearch/detectron2/blob/main/LICENSE)
