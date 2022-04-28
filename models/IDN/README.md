@@ -60,3 +60,7 @@ Contact [SOYNET](https://market.soymlops.com/#/contact-us).
  - [Original Code](https://github.com/yjn870/IDN-pytorch)
 
 
+# License for Original Model use
+
+IDN is under Apache Public License. 
+See License terms and condition: [License](https://github.com/k41n/idn/blob/master/LICENSE)
