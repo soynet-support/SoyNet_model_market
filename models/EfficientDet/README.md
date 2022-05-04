@@ -62,7 +62,7 @@ Contact [SOYNET](https://market.soymlops.com/#/contact-us).
  - [Original Code](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch)
 
 
-# License for Original Model use
+# Acknowlegement
 
 EfficientDet is under GNU Lesser General Public License. 
 See License terms and condition: [License](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch/blob/master/LICENSE)
