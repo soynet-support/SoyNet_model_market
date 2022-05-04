@@ -59,7 +59,7 @@ Contact [SOYNET](https://market.soymlops.com/#/contact-us).
  - [Original Code](https://github.com/ronghuaiyang/arcface-pytorch)
 
 
-# License for Original Model use
+# Acknowlegement
 
 ArcFace is under GNU General Public License. 
 See License terms and condition: [License](https://github.com/yinguobing/arcface/blob/main/LICENSE)
