@@ -61,7 +61,7 @@ Contact [SOYNET](https://market.soymlops.com/#/contact-us).
  - [Original Code](https://github.com/facebookresearch/detectron2)
 
 
-# License for Original Model use
+# Acknowlegement
 
 Mask R-CNN is under MIT License. 
 See License terms and condition: [License](https://github.com/matterport/Mask_RCNN/blob/master/LICENSE)
