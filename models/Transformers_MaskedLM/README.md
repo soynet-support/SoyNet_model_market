@@ -57,7 +57,7 @@ Contact [SOYNET](https://market.soymlops.com/#/contact-us).
 # Reference
  - [Original Code](https://github.com/huggingface/transformers)
 
-# License for Original Model use
+# Acknowlegement
 
 Transformers MaskedLM is under Apache License. 
 See License terms and condition: [License](https://github.com/huggingface/transformers/blob/main/LICENSE)
