@@ -61,7 +61,7 @@ Contact [SOYNET](https://market.soymlops.com/#/contact-us).
  - [Original Code](https://github.com/dbolya/yolact)
 
 
-# License for Original Model use
+# Acknowlegement
 
 Yolact is under MIT License. 
 See License terms and condition: [License](https://github.com/dbolya/yolact/blob/master/LICENSE)
