@@ -60,7 +60,7 @@ Contact [SOYNET](https://market.soymlops.com/#/contact-us).
 # Reference
  - [Original Code](https://github.com/tensorflow/models/tree/master/research/object_detection)
 
-# License for Original Model use
+# Acknowlegement
 
 SSD Mobilenet V2 is under MIT License. 
 See License terms and condition: [License](https://github.com/chuanqi305/MobileNet-SSD/blob/master/LICENSE)
