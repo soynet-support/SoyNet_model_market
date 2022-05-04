@@ -76,6 +76,7 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++.
  - TensorRT (= 8.2.1.8)
  
     ※ You need to use .dll and .so files that match CDUA and TensorRT versions. If you want another version, Please contact [SoyNet](https://soynet.io/en/).
+
     ※ Also, You can use a docker.
 
 #### S/W
