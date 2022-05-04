@@ -63,6 +63,6 @@ Contact [SOYNET](https://market.soymlops.com/#/contact-us).
 # Reference
  - [Original Code](https://github.com/ultralytics/yolov5)
 
-# License for Original Model use
+# Acknowlegement
 
 See License terms and condition: [License](https://github.com/AlexeyAB/darknet/blob/master/LICENSE)
