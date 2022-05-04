@@ -59,6 +59,6 @@ Contact [SOYNET](https://market.soymlops.com/#/contact-us).
  - [Original Code](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
 
 
-# License for Original Model use
+# Acknowlegement
 
 See License terms and condition: [License](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/blob/master/LICENSE)
