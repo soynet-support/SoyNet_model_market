@@ -64,9 +64,10 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++.
 
    ※ `engine_serialize` in `extend_param`
       - This parameter determines whether to build a SoyNet engine or not.
-      - If you run it for the first time, set engine_serialize to 1.
-      - Also, if you edit the extend parameter, set engine_serialize to 1.
-      - Set to 0 after engine is created.
+      - default is 0.
+      - If you run SoyNet for the first time or modify config or extended parameters, select one of the following two methods.
+         1) Delete the existing generated bin (engine) file and run it again.
+         2) Run by setting this value to 1 and then change back to 0.
 
 ## Prerequisites
 #### NVIDA Development Environment
