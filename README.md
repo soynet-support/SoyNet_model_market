@@ -444,8 +444,8 @@ The models folder contains a detailed description.
   </tr>
 </table>
 
-The model will be added continuously, so please contact [SoyNet](https://soynet.io/en/) for the **Custom Model**.
+The model will be added continuously, so please contact [SoyNet](https://market.soymlops.com/#/contact-us) for the **Custom Model**.
 
 ## Contact
-For business inquiries or professional support requests please visit [SoyNet](https://market.soymlops.com/#/).
+For business inquiries or professional support requests please visit [SoyNet](https://market.soymlops.com/#/contact-us).
 
