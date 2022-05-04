@@ -59,7 +59,7 @@ Contact [SOYNET](https://market.soymlops.com/#/contact-us).
  - [Original Code](https://github.com/lincolnhard/openpose-darknet)
 
 
-# License for Original Model use
+# Acknowlegement
 
 Openpose Darknet is under MIT License. 
 See License terms and condition: [License](https://github.com/lincolnhard/openpose-darknet/blob/master/LICENSE)
