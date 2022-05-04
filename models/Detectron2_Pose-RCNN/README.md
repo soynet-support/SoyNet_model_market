@@ -61,7 +61,7 @@ Contact [SOYNET](https://market.soymlops.com/#/contact-us).
  - [Original Code](https://github.com/facebookresearch/detectron2)
 
 
-# License for Original Model use
+# Acknowlegement
 
 Keypoint R-CNN is under Apache License. 
 See License terms and condition: [License](https://github.com/facebookresearch/detectron2/blob/main/LICENSE)
