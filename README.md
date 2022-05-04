@@ -2,9 +2,9 @@
 
 # SoyNet Model Market
 
-[SoyNet](https://soynet.io/en/) is an inference optimizing solution for AI models.
+[SoyNet](https://market.soymlops.com/) is an inference optimizing solution for AI models.
 
-We start a [SoyNet AI model market](https://market.soymlops.com/#/about).
+We start a [SoyNet AI model market](https://market.soymlops.com/).
 
 ## SoyNet Overview
 
