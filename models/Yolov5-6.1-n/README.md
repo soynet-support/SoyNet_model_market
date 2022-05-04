@@ -66,7 +66,7 @@ Contact [SOYNET](https://market.soymlops.com/#/contact-us).
  - [Original Code](https://github.com/ultralytics/yolov5)
 
 
-# License for Original Model use
+# Acknowlegement
 
 Yolov5 n is under GNU General Public License. 
 See License terms and condition: [License](https://github.com/ultralytics/yolov5/blob/master/LICENSE)
