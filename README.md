@@ -303,7 +303,7 @@ The models folder contains a detailed description.
     <td align=center>✔</td>
   </tr>
   <tr>
-    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Openpose-Darknet">OpenPose</a></td>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Openpose_Darknet">OpenPose</a></td>
     <td align=center><a href="https://github.com/lincolnhard/openpose-darknet">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
