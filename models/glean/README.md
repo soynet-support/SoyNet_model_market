@@ -58,7 +58,7 @@ Contact [SOYNET](https://market.soymlops.com/#/contact-us).
  - [Original Code](https://github.com/open-mmlab/mmediting/tree/master/configs/restorers/glean)
 )
 
-# License for Original Model use
+# Acknowlegement
 
 Glean is under Apache License. 
 See License terms and condition: [License](https://github.com/open-mmlab/mmediting/blob/master/LICENSE)
