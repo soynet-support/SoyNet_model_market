@@ -389,7 +389,7 @@ The models folder contains a detailed description.
     <td align=center>✔</td>
   </tr>
   <tr>
-    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/Glean">Glean</a></td>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/glean">Glean</a></td>
     <td align=center><a href="https://github.com/open-mmlab/mmediting/tree/master/configs/restorers/glean">LINK</a></td>
     <td align=center>✔</td>
     <td align=center>✔</td>
