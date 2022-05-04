@@ -60,8 +60,7 @@ Contact [SOYNET](https://market.soymlops.com/#/contact-us).
  - [Original Code](https://pytorch.org/hub/pytorch_vision_vgg/)
 
 
-# License for Original Model use
-
+# Acknowlegement
 VGG is under Apache License. 
 See License terms and condition: [License](https://github.com/jcjohnson/pytorch-vgg/blob/master/LICENSE)
 
