@@ -60,7 +60,7 @@ Contact [SOYNET](https://market.soymlops.com/#/contact-us).
 # Reference
  - [Original Code](https://github.com/biubug6/Pytorch_Retinaface)
 
-# License for Original Model use
+# Acknowlegement
 
 RetinaFace is under MIT License. 
 See License terms and condition: [License](https://github.com/serengil/retinaface/blob/master/LICENSE)
