@@ -60,7 +60,7 @@ Contact [SOYNET](https://market.soymlops.com/#/contact-us).
 
 
 
-# License for Original Model use
+# Acknowlegement
 
 SENet is under Apache License. 
 See License terms and condition: [License](https://github.com/hujie-frank/SENet/blob/master/LICENSE)
