@@ -76,6 +76,7 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++.
  - TensorRT (= 8.2.1.8)
  
     ※ You need to use .dll and .so files that match CDUA and TensorRT versions. If you want another version, Please contact [SoyNet](https://soynet.io/en/).
+    ※ Also, You can use a docker.
 
 #### S/W
  - OS : Ubuntu 18.04 LTS
@@ -87,7 +88,7 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++.
 Before proceeding, please refer to the [Folder Structure](#folder-structure) to see if the required files exist.
 
 1. You can download .weights file from `download_soynet_weight.py` in [weights folder](#folder-structure).
-2. Set [engine_serialize](#soynet-function) to 1 in the code of the samples file.
+2. Set [engine_serialize](#soynet-function)
 3. Just Run
 
 The models folder contains a detailed description.
