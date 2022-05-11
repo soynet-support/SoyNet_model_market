@@ -38,7 +38,7 @@ if __name__ == "__main__":
     inference(handle)
 
     # Read Test Data
-    img = cv.imread("../data/NY_720x1280.jpg")
+    img = cv.imread("../data/zidane.jpg")
 
     neww, newh = CreateNetsizeImage(img, 200, 200, 0)
     resized_img = np.zeros(shape=(200, 200, 3), dtype=np.uint8)

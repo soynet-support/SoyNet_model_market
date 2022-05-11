@@ -20,9 +20,9 @@ if __name__ == "__main__":
 
     model_name = "SENet_legacy_senet"
     cfg_file = "../models/SENet_legacy_senet/configs/{}.cfg".format("senet50")
-    weight_file = "../models/SENet_legacy_senet/weights/{}.weights".format("legacy_seresnet50")
+    weight_file = "../models/SENet_legacy_senet/weights/{}.weights".format(model_name)
     engine_file = "../models/SENet_legacy_senet/engines/{}.bin".format(model_name)
-    log_file = "../models/VGG/SENet_legacy_senet/{}.log".format(model_name)
+    log_file = "../models/SENet_legacy_senet/logs/SENet_legacy_senet/{}.log".format(model_name)
 
     extend_param = \
         "MODEL_NAME={} BATCH_SIZE={} ENGINE_SERIALIZE={} CLASS_COUNT={} " \
@@ -40,7 +40,7 @@ if __name__ == "__main__":
     inference(handle)
 
     # Read Test Data
-    img = cv.imread("../data/panda5.jpg")
+    img = cv.imread("../data/panda5.jpg", cv.IMREAD_GRAYSCALE)
 
     # Resize Image
     resized_img = cv.resize(img, (model_width, model_height))

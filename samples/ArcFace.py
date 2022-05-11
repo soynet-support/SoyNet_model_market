@@ -58,4 +58,3 @@ if __name__ == "__main__":
     
     # destroy SoyNet handle
     freeSoyNet(handle)
-

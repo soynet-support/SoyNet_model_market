@@ -4,6 +4,7 @@ import numpy as np
 
 sys.path.append('../')
 
+from utils.utils import ViewResult
 from include.SoyNet import *
 
 if __name__ == "__main__":
@@ -58,3 +59,6 @@ if __name__ == "__main__":
     
     # destroy SoyNet handle
     freeSoyNet(handle)
+
+    # View Result
+    ViewResult(img, output, 'CycleGan')

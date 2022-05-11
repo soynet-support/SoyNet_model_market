@@ -5,6 +5,7 @@ import numpy as np
 sys.path.append('../')
 
 from utils.ClassName import COCO_80
+from utils.utils import ViewResult
 from include.SoyNet import *
 
 if __name__ == "__main__":
@@ -49,7 +50,7 @@ if __name__ == "__main__":
 
     # Create Output Variable
     data_type = np.dtype([("rip", [("x1", c_float), ("y1", c_float), ("x2", c_float), ("y2", c_float),
-                          ("obj_id", c_float), ("prob", c_float)], nms_count), ("masked_image", c_uint8, (input_height, input_width, 3))])
+                          ("obj_id", c_int), ("prob", c_float)], nms_count), ("masked_image", c_uint8, (input_height, input_width, 3))])
 
     output=np.zeros(batch_size, dtype=data_type)
     # FeedData
@@ -76,3 +77,6 @@ if __name__ == "__main__":
 
     # destroy SoyNet handle
     freeSoyNet(handle)
+
+    # View Result
+    ViewResult(img, output, name='Yolact++', nms=nms_count)

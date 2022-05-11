@@ -4,11 +4,12 @@ import numpy as np
 
 sys.path.append('../')
 
-from utils.ClassName import COCO_80
+from utils.ClassName import COCO_90
+from utils.utils import ViewResult
 from include.SoyNet import *
 
 if __name__ == "__main__":
-    class_names = COCO_80()
+    class_names = COCO_90()
 
     # Variable for SoyNet
     batch_size = 1
@@ -70,3 +71,6 @@ if __name__ == "__main__":
 
     # destroy SoyNet handle
     freeSoyNet(handle)
+
+    # View Result
+    ViewResult(img, output, 'SSD_Mobilenet', nms=nms_count, batch=batch_size)

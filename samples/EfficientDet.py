@@ -4,6 +4,7 @@ import numpy as np
 
 sys.path.append('../')
 
+from utils.utils import ViewResult
 from utils.ClassName import COCO_80
 from include.SoyNet import *
 
@@ -74,3 +75,6 @@ if __name__ == "__main__":
 
     # destroy SoyNet handle
     freeSoyNet(handle)
+
+    # View Result
+    ViewResult(img, output, 'EfficientDet', nms=nms_count)

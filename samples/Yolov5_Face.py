@@ -5,6 +5,7 @@ import numpy as np
 sys.path.append('../')
 
 from utils.ClassName import COCO_80
+from utils.utils import ViewResult
 from include.SoyNet import *
 
 if __name__ == "__main__":
@@ -93,3 +94,6 @@ if __name__ == "__main__":
 
     # destroy SoyNet handle
     freeSoyNet(handle)
+
+    # View Result
+    ViewResult(img, output, 'Yolov5_face', nms=nms_count)

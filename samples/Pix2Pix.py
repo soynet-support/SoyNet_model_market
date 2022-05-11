@@ -5,6 +5,7 @@ import numpy as np
 sys.path.append('../')
 
 from include.SoyNet import *
+from utils.utils import ViewResult
 
 if __name__ == "__main__":
 
@@ -38,9 +39,11 @@ if __name__ == "__main__":
 
     # Read Test Data
     img = cv.imread("../data/NY_720x1280.jpg")
-    
+    img = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
+
     # Resize Image
     resized_img = cv.resize(img, (model_width, model_height))
+    resized_img = np.expand_dims(resized_img, axis=2)
 
     # Create Output Variable
     output = np.zeros((batch_size, resized_img.shape[2], model_height, model_width), dtype=np.float32)
@@ -58,3 +61,6 @@ if __name__ == "__main__":
     
     # destroy SoyNet handle
     freeSoyNet(handle)
+
+    # View Result
+    ViewResult(img, output, 'Pix2Pix')

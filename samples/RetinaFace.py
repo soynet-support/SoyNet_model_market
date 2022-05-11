@@ -5,7 +5,7 @@ import numpy as np
 sys.path.append('../')
 
 from include.SoyNet import *
-from utils.utils import MakeMultiple32
+from utils.utils import MakeMultiple32, ViewResult
 
 if __name__ == "__main__":
     class_names = (0, 1)
@@ -27,7 +27,7 @@ if __name__ == "__main__":
 
     extend_param = \
         "MODEL_NAME={} BATCH_SIZE={} ENGINE_SERIALIZE={} CLASS_COUNT={} NMS_COUNT={} REGION_COUNT={} " \
-        "INPUT_SIZE={},{} " \
+        "MODEL_SIZE={},{} " \
         "WEIGHT_FILE={} ENGINE_FILE={} LOG_FILE={}".format(
             model_name, batch_size, engine_serialize, class_count, nms_count, region_count,
             model_height, model_width,
@@ -78,3 +78,6 @@ if __name__ == "__main__":
 
     # destroy SoyNet handle
     freeSoyNet(handle)
+
+    # View Result
+    ViewResult(img, output, 'RetinaFace', nms=nms_count)

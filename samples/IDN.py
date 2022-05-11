@@ -4,6 +4,7 @@ import numpy as np
 
 sys.path.append('../')
 
+from utils.utils import ViewResult
 from include.SoyNet import *
 
 if __name__ == "__main__":
@@ -61,7 +62,8 @@ if __name__ == "__main__":
     for n in range(batch_size):
         result = np.transpose(output[n], (1, 2, 0))
 
-    print("Output Shape: {}".format(output.shape))
-
     # destroy SoyNet handle
     freeSoyNet(handle)
+
+    # View Result
+    ViewResult(img, result, 'IDN')
