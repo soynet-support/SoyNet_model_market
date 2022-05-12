@@ -5,6 +5,7 @@ import numpy as np
 sys.path.append('../')
 
 from include.SoyNet import *
+from utils.utils import ViewResult
 
 if __name__ == "__main__":
 
@@ -60,3 +61,6 @@ if __name__ == "__main__":
     
     # destroy SoyNet handle
     freeSoyNet(handle)
+
+    # View Result
+    ViewResult(img, output, 'FAnoGan')

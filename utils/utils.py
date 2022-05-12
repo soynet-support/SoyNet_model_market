@@ -48,15 +48,21 @@ def ViewResult(ori_img, output, name, batch=1, nms=0):
     row = ori_img.shape[0]
     col = ori_img.shape[1]
 
-    if name == 'Glean' or name == 'IDN':
+    if name == 'IDN':
         output = cv.cvtColor(output, cv.COLOR_BGR2RGB)
         cv.imshow(name + ' Image', output)
         cv.waitKey(0)
 
-    elif name == 'Pix2Pix':
+    elif name == 'Glean':
+        output = np.reshape(output, (output.shape[2], output.shape[3], output.shape[1]))
+        output = cv.cvtColor(output, cv.COLOR_BGR2RGB)
+        cv.imshow(name + ' Image', output)
+        cv.waitKey(0)
+
+    elif name == 'Pix2Pix' or name == 'FAnoGan':
         output = output.reshape((output.shape[1], output.shape[2], output.shape[3]))
         output = np.transpose(output, (1, 2, 0))
-        cv.imshow('test', output)
+        cv.imshow(name + ' Image', output)
         cv.waitKey(0)
 
     elif name == 'CycleGan':

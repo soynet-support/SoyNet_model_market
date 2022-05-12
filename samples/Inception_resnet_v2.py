@@ -55,7 +55,5 @@ if __name__ == "__main__":
     # GetOutput
     getOutput(handle, output)
 
-    # Post-Processing
-    
     # destroy SoyNet handle
     freeSoyNet(handle)

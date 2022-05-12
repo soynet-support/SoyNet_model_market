@@ -81,4 +81,4 @@ if __name__ == "__main__":
     freeSoyNet(handle)
 
     # View Result
-    ViewResult(img, output, 'Mask-RCNN', nms=100)
+    ViewResult(img, output, 'Mask-RCNN', nms=nms_count)

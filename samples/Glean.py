@@ -61,5 +61,4 @@ if __name__ == "__main__":
     freeSoyNet(handle)
 
     # View Result
-    output = np.reshape(output, (output.shape[2], output.shape[3], output.shape[1]))
     ViewResult(img, output, 'Glean')
