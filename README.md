@@ -56,6 +56,7 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++.
  - `feedData(handle, data)` : Put the data into the SoyNet handle.
  - `inference(handle)` : Start inference.
  - `getOutput(handle, output)` : Put the inference data into the output.
+ - `freeSoyNet(handle)` : If you're done using a handle, destroy it.
 
 
    ※ `extend_param`
