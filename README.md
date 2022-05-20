@@ -82,7 +82,7 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++.
 
 #### S/W
  - OS : Ubuntu 18.04 LTS
- - Others : 
+ - Others : `pip install -r requirements.txt` 
    - OpenCV (for reading video files and outputting the screen)
    - Wget (for 'download_soynet_weight.py' in [weights folder](#folder-structure)
 
