@@ -37,6 +37,8 @@ if __name__ == "__main__":
         )
 
     # Create SoyNet Handle
+    # initSoyNet() is used to create the engine of the model and the handle of SoyNet.
+    # Use only for the first run.Once you have created a handle, you do not need to recreate handle.
     handle = initSoyNet(cfg_file, extend_param)
 
     # WarmingUp SoyNet
@@ -52,7 +54,10 @@ if __name__ == "__main__":
     data_type = np.dtype([("rip", [("x1", c_float), ("y1", c_float), ("x2", c_float), ("y2", c_float),
                           ("obj_id", c_int), ("prob", c_float)], nms_count), ("masked_image", c_uint8, (input_height, input_width, 3))])
 
-    output=np.zeros(batch_size, dtype=data_type)
+    output = np.zeros(batch_size, dtype=data_type)
+
+    # Use feedData, inference, getOutput to inference.
+    # If a handle is already created, these can be used repeatedly.
     # FeedData
     feedData(handle, resized_img)
 
@@ -76,6 +81,8 @@ if __name__ == "__main__":
         print("Output Shape: {}".format(masked_image.shape))                    # [N, H, W, C]
 
     # destroy SoyNet handle
+    # freeSoyNet() removes the handle.
+    # If you want to use the model again after removing the handle, create the handle again.
     freeSoyNet(handle)
 
     # View Result
