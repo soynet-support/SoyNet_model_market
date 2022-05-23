@@ -94,6 +94,7 @@ Before proceeding, please refer to the [Folder Structure](#folder-structure) to 
 3. Just Run
 
 The models folder contains a detailed description.
+
 More details can be found [here](https://market.soymlops.com/#/blog-post/1652404408651).
 
 ## Model List
