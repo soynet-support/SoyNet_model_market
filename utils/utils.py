@@ -45,7 +45,8 @@ def CreateNetsizeImage(img, netw, neth, scale):
 
 
 def ViewResult(ori_img, output, name, batch=1, nms=0):
-    if ori_img == None:
+
+    if ori_img is None:
         exit()
 
     row = ori_img.shape[0]

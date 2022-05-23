@@ -20,7 +20,7 @@ if __name__ == "__main__":
     nms_count = 100
     class_count = len(class_names)
     input_height, input_width = 720, 1280
-    model_size = 1280
+    model_size = 640
 
     model_name = "yolov5s"
 
