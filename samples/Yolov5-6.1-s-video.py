@@ -1,11 +1,12 @@
 import cv2 as cv
 import sys
 import numpy as np
+import time
 
 sys.path.append('../')
 
 from utils.ClassName import COCO_80
-from utils.utils import ViewResult
+from utils.utils import ViewResult, ViewFPS
 from include.SoyNet import *
 
 if __name__ == "__main__":
@@ -61,6 +62,8 @@ if __name__ == "__main__":
                 # Resize Image
                 resized_img = cv.resize(img, (input_width, input_height))
 
+                # Start Time measurement
+                start = time.time()
                 # FeedData
                 feedData(handle, resized_img)
 
@@ -69,6 +72,8 @@ if __name__ == "__main__":
 
                 # GetOutput
                 getOutput(handle, output)
+                # End Time measurement
+                end = time.time()
 
                 # Post-Processing
                 for b_idx in range(batch_size):
@@ -78,9 +83,14 @@ if __name__ == "__main__":
                         x1, y1, x2, y2 = int(x1), int(y1), int(x2), int(y2)
                         cv.rectangle(img, (x1, y1), (x2, y2), (0, 0, 255), 2)
                         cv.putText(img, class_names[obj_id], (x1, y1 - 3), 1, 1.5, (255, 0, 0), 1, cv.LINE_AA)
+
+                        # Write FPS
+                        img = ViewFPS(img, start, end, input_height, "Red")
+
                         if x1 != 0 and y1 != 0 and x2 != 0 and y2 != 0:
                             print("NMS_Num: {} \nx1: {} \ny1: {} \nx2: {} \ny2: {} \nobj_id: {} \nprob: {} \nClass_name: {}\n".format(
                                     n_idx, x1, y1, x2, y2, obj_id, prob, class_names[obj_id]))
+
                 cv.imshow('Test', img)
                 if cv.waitKey(1) == ord('q'):
                     cv.destroyWindow('Test')

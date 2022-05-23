@@ -44,6 +44,19 @@ def CreateNetsizeImage(img, netw, neth, scale):
     return int(neww), int(newh)
 
 
+def ViewFPS(ori_img, start, end, img_height, Color):
+    fps = 1. / (end - start)
+    if Color == "Red":
+        color = (0, 0, 255)
+    elif Color == "Blue":
+        color = (255, 0, 0)
+    elif Color == "Green":
+        color = (0, 255, 0)
+
+    cv.putText(ori_img, "FPS : " + str(fps), (5, img_height - 10), 1, 1.5, color, 1, cv.LINE_AA)
+    return ori_img
+
+
 def ViewResult(ori_img, output, name, batch=1, nms=0):
 
     if ori_img is None:
