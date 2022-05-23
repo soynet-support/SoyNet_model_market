@@ -75,8 +75,9 @@ if __name__ == "__main__":
         rip, masked_image = output[b_idx]
         for n_idx in range(nms_count):
             x1, y1, x2, y2, obj_id, prob = rip[n_idx]
-            print("NMS_Num: {} \nx1: {} \ny1: {} \nx2: {} \ny2: {} \nobj_id: {} \nprob: {} \nClass_name: {}\n".format(
-                n_idx, x1, y1, x2, y2, obj_id, prob, class_names[int(obj_id)]))
+            if x1 != 0 and y1 != 0 and x2 != 0 and y2 != 0:
+                print("NMS_Num: {} \nx1: {} \ny1: {} \nx2: {} \ny2: {} \nobj_id: {} \nprob: {} \nClass_name: {}\n".format(
+                    n_idx, x1, y1, x2, y2, obj_id, prob, class_names[int(obj_id)]))
 
         print("Output Shape: {}".format(masked_image.shape))                    # [N, H, W, C]
 

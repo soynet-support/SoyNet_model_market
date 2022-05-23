@@ -93,8 +93,9 @@ if __name__ == "__main__":
             l_mouth_x = output[n_idx + b_idx * nms_count][13]   # Left Mouth X
             l_mouth_y = output[n_idx + b_idx * nms_count][14]   # Left Mouth Y
 
-            print("NMS_Num: {} \nx1: {} \ny1: {} \nx2: {} \ny2: {} \nprob: {} \n".format(
-                n_idx, x1, y1, x2, y2, prob))
+            if x1 != 0 and y1 != 0 and x2 != 0 and y2 != 0:
+                print("NMS_Num: {} \nx1: {} \ny1: {} \nx2: {} \ny2: {} \nprob: {} \n".format(
+                    n_idx, x1, y1, x2, y2, prob))
 
     # destroy SoyNet handle
     # freeSoyNet() removes the handle.
