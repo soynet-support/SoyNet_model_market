@@ -55,24 +55,36 @@ def ViewResult(ori_img, output, name, batch=1, nms=0):
     if name == 'IDN':
         output = cv.cvtColor(output, cv.COLOR_BGR2RGB)
         cv.imshow(name + ' Image', output)
-        cv.waitKey(0)
+        while True:
+            if cv.waitKey(1) == ord('q'):
+                cv.destroyWindow(name + ' Image')
+                break
 
     elif name == 'Glean':
         output = np.reshape(output, (output.shape[2], output.shape[3], output.shape[1]))
         output = cv.cvtColor(output, cv.COLOR_BGR2RGB)
         cv.imshow(name + ' Image', output)
-        cv.waitKey(0)
+        while True:
+            if cv.waitKey(1) == ord('q'):
+                cv.destroyWindow(name + ' Image')
+                break
 
     elif name == 'Pix2Pix' or name == 'FAnoGan':
         output = output.reshape((output.shape[1], output.shape[2], output.shape[3]))
         output = np.transpose(output, (1, 2, 0))
         cv.imshow(name + ' Image', output)
-        cv.waitKey(0)
+        while True:
+            if cv.waitKey(1) == ord('q'):
+                cv.destroyWindow(name + ' Image')
+                break
 
     elif name == 'CycleGan':
         img = np.reshape(output, (row, col, 3)).astype(np.uint8)
         cv.imshow(name + ' Image', img)
-        cv.waitKey(0)
+        while True:
+            if cv.waitKey(1) == ord('q'):
+                cv.destroyWindow(name + ' Image')
+                break
 
     elif name == 'Faster-RCNN' or name == 'EfficientDet' or name == 'Yolor' or name == 'Yolov5':
         class_name = COCO_80()
@@ -83,7 +95,10 @@ def ViewResult(ori_img, output, name, batch=1, nms=0):
                 cv.rectangle(ori_img, (x1, y1), (x2, y2), (0, 0, 255), 2)
                 cv.putText(ori_img, class_name[obj_id], (x1, y1 - 3), 1, 1.5, (255, 0, 0), 1, cv.LINE_AA)
             cv.imshow(name + ' Image', ori_img)
-            cv.waitKey(0)
+            while True:
+                if cv.waitKey(1) == ord('q'):
+                    cv.destroyWindow(name + ' Image')
+                    break
 
     elif name == 'SSD_Mobilenet' or name == 'Yolov3' or name == 'Yolov4':
         class_name = COCO_90()
@@ -95,7 +110,10 @@ def ViewResult(ori_img, output, name, batch=1, nms=0):
                 cv.rectangle(ori_img, (x1, y1), (x2, y2), (0, 0, 255), 2)
                 cv.putText(ori_img, class_name[obj_id], (int(x1), int(y1) - 3), 1, 1.5, (255, 0, 0), 1, cv.LINE_AA)
             cv.imshow(name + ' Image', ori_img)
-            cv.waitKey(0)
+            while True:
+                if cv.waitKey(1) == ord('q'):
+                    cv.destroyWindow(name + ' Image')
+                    break
 
     elif name == 'Mask-RCNN':
         class_name = COCO_80()
@@ -106,7 +124,10 @@ def ViewResult(ori_img, output, name, batch=1, nms=0):
                 cv.rectangle(masked_img, (x1, y1), (x2, y2), (0, 0, 255), 2)
                 cv.putText(masked_img, class_name[obj_id], (int(x1), int(y1) - 3), 1, 1.5, (255, 0, 0), 1, cv.LINE_AA)
             cv.imshow(name + ' Image', masked_img)
-            cv.waitKey(0)
+            while True:
+                if cv.waitKey(1) == ord('q'):
+                    cv.destroyWindow(name + ' Image')
+                    break
 
     elif name == 'Yolact++' or name == 'Yolact':
         class_name = COCO_80()
@@ -119,7 +140,10 @@ def ViewResult(ori_img, output, name, batch=1, nms=0):
                 cv.rectangle(masked_img, (x1, y1), (x2, y2), (0, 0, 255), 2)
                 cv.putText(masked_img, class_name[obj_id], (x1, y1 - 3), 1, 1.5, (255, 0, 0), 1, cv.LINE_AA)
             cv.imshow(name + ' Image', masked_img)
-            cv.waitKey(0)
+            while True:
+                if cv.waitKey(1) == ord('q'):
+                    cv.destroyWindow(name + ' Image')
+                    break
 
     elif name == 'Pose-RCNN':
         for b_idx in range(batch):
@@ -132,7 +156,10 @@ def ViewResult(ori_img, output, name, batch=1, nms=0):
                 for k_idx in range(n_idx * 51, (n_idx + 1) * 51, 3):
                     cv.circle(ori_img, (keypoint[k_idx], keypoint[k_idx + 1]), 5, (0, 255, 255), -1)
             cv.imshow(name + ' Image', ori_img)
-            cv.waitKey(0)
+            while True:
+                if cv.waitKey(1) == ord('q'):
+                    cv.destroyWindow(name + ' Image')
+                    break
 
     elif name == 'RetinaFace' or name == 'Yolov5_face':
         for n_idx in range(nms):
@@ -141,4 +168,7 @@ def ViewResult(ori_img, output, name, batch=1, nms=0):
             for idx in range(5, 15, 2):
                 cv.circle(ori_img, (result[idx], result[idx + 1]), 5, (0, 255, 255), -1)
         cv.imshow(name + ' Image', ori_img)
-        cv.waitKey(0)
+        while True:
+            if cv.waitKey(1) == ord('q'):
+                cv.destroyWindow(name + ' Image')
+                break

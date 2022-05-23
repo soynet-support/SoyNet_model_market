@@ -82,9 +82,10 @@ if __name__ == "__main__":
                         print(
                             "NMS_Num: {} \nx1: {} \ny1: {} \nx2: {} \ny2: {} \nobj_id: {} \nprob: {} \nClass_name: {}\n".format(
                                 n_idx, x1, y1, x2, y2, obj_id, prob, class_names[obj_id]))
-                cv.imshow('test', img)
-                cv.waitKey(1)
-
+                cv.imshow('Test', img)
+                if cv.waitKey(1) == ord('q'):
+                    cv.destroyWindow('Test')
+                    break
             else:
                 break
     else:
