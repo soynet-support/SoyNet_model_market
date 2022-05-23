@@ -89,6 +89,10 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++.
 ## Getting Started
 Before proceeding, please refer to the [Folder Structure](#folder-structure) to see if the required files exist.
 
+It may take some time for the engine to be created.
+
+But once you create it, you can use it continuously.
+
 1. You can download .weights file from `download_soynet_weight.py` in [weights folder](#folder-structure).
 2. Set [engine_serialize](#soynet-function)
 3. Just Run
