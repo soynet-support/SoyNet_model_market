@@ -51,7 +51,7 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++.
  - `weights` : You can download .weights file from `download_soynet_weight.py` in [weights folder](#folder-structure).
  - `license file` : Please contact [SoyNet](https://soynet.io/en/) if the time has passed.
 
-## SoyNet Function.
+## SoyNet Function
  - `initSoyNet(.cfg, extend_param)` : Created a SoyNet handle.
  - `feedData(handle, data)` : Put the data into the SoyNet handle.
  - `inference(handle)` : Start inference.
