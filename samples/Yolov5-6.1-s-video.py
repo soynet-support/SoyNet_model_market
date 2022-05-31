@@ -2,6 +2,7 @@ import cv2 as cv
 import sys
 import numpy as np
 import time
+import argparse
 
 sys.path.append('../')
 
@@ -9,7 +10,16 @@ from utils.ClassName import COCO_80
 from utils.utils import ViewResult, ViewFPS
 from include.SoyNet import *
 
+parser = argparse.ArgumentParser(description="Set Value")
+parser.add_argument('-t', '--threshold',
+                    required=False,
+                    type=float,
+                    default=0.45,
+                    help="Set Threshold")
+
 if __name__ == "__main__":
+
+    args = parser.parse_args()
 
     class_names = COCO_80()
 
@@ -54,6 +64,8 @@ if __name__ == "__main__":
 
     # Use feedData, inference, getOutput to inference.
     # If a handle is already created, these can be used repeatedly.
+    total_fps = 0
+    img_count = 0
     if cap.isOpened():
         while True:
             ret, img = cap.read()
@@ -76,20 +88,25 @@ if __name__ == "__main__":
                 end = time.time()
 
                 # Post-Processing
-                for b_idx in range(batch_size):
-                    print("\nBatch_Num: {}".format(b_idx))
-                    for n_idx in range(nms_count):
-                        x1, y1, x2, y2, obj_id, prob = output[n_idx + b_idx * nms_count]
+                for n_idx in range(nms_count):
+                    x1, y1, x2, y2, obj_id, prob = output[n_idx]
+                    if prob >= args.threshold:
                         x1, y1, x2, y2 = int(x1), int(y1), int(x2), int(y2)
                         cv.rectangle(img, (x1, y1), (x2, y2), (0, 0, 255), 2)
                         cv.putText(img, class_names[obj_id], (x1, y1 - 3), 1, 1.5, (255, 0, 0), 1, cv.LINE_AA)
 
-                        # Write FPS
-                        img = ViewFPS(img, start, end, input_height, "Red")
-
                         if x1 != 0 and y1 != 0 and x2 != 0 and y2 != 0:
-                            print("NMS_Num: {} \nx1: {} \ny1: {} \nx2: {} \ny2: {} \nobj_id: {} \nprob: {} \nClass_name: {}\n".format(
+                            print(
+                                "NMS_Num: {} \nx1: {} \ny1: {} \nx2: {} \ny2: {} \n"
+                                "obj_id: {} \nprob: {} \nClass_name: {}\n".format(
                                     n_idx, x1, y1, x2, y2, obj_id, prob, class_names[obj_id]))
+
+                # Write FPS
+                img, fps = ViewFPS(img, start, end, input_height, "Red")
+
+                # Sum for Total FPS
+                total_fps += fps
+                img_count += 1
 
                 cv.imshow('Test', img)
                 if cv.waitKey(1) == ord('q'):
@@ -99,6 +116,9 @@ if __name__ == "__main__":
                 break
     else:
         print("Video file does not exist.")
+
+    # Print Average FPS
+    print("Average FPS : {}".format(total_fps / img_count))
 
     # destroy SoyNet handle
     # freeSoyNet() removes the handle.

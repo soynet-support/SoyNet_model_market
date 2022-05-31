@@ -1,6 +1,7 @@
 import cv2 as cv
 import sys
 import numpy as np
+import argparse
 
 sys.path.append('../')
 
@@ -8,7 +9,16 @@ from utils.ClassName import COCO_80
 from utils.utils import ViewResult
 from include.SoyNet import *
 
+parser = argparse.ArgumentParser(description="Set Value")
+parser.add_argument('-t', '--threshold',
+                    required=False,
+                    type=float,
+                    default=0.45,
+                    help="Set Threshold")
+
 if __name__ == "__main__":
+
+    args = parser.parse_args()
 
     class_names = COCO_80()
 
@@ -75,8 +85,9 @@ if __name__ == "__main__":
         rip, masked_image = output[b_idx]
         for n_idx in range(nms_count):
             x1, y1, x2, y2, obj_id, prob = rip[n_idx]
-            print("NMS_Num: {} \nx1: {} \ny1: {} \nx2: {} \ny2: {} \nobj_id: {} \nprob: {} \nClass_name: {}\n".format(
-                    n_idx, x1, y1, x2, y2, obj_id, prob, class_names[int(obj_id)]))
+            if prob >= args.threshold:
+                print("NMS_Num: {} \nx1: {} \ny1: {} \nx2: {} \ny2: {} \nobj_id: {} \nprob: {} \nClass_name: {}\n".format(
+                        n_idx, x1, y1, x2, y2, obj_id, prob, class_names[int(obj_id)]))
 
         print("Output Shape: {}".format(masked_image.shape))                    # [N, H, W, C]
 

@@ -1,6 +1,7 @@
 import cv2 as cv
 import sys
 import numpy as np
+import argparse
 
 sys.path.append('../')
 
@@ -8,7 +9,17 @@ from utils.ClassName import COCO_90
 from utils.utils import ViewResult
 from include.SoyNet import *
 
+parser = argparse.ArgumentParser(description="Set Value")
+parser.add_argument('-t', '--threshold',
+                    required=False,
+                    type=float,
+                    default=0.45,
+                    help="Set Threshold")
+
 if __name__ == "__main__":
+
+    args = parser.parse_args()
+
     class_names = COCO_90()
 
     # Variable for SoyNet

@@ -54,7 +54,7 @@ def ViewFPS(ori_img, start, end, img_height, Color):
         color = (0, 255, 0)
 
     cv.putText(ori_img, "FPS : " + str(fps), (5, img_height - 10), 1, 1.5, color, 1, cv.LINE_AA)
-    return ori_img
+    return ori_img, fps
 
 
 def ViewResult(ori_img, output, name, batch=1, nms=0):

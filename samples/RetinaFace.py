@@ -1,13 +1,24 @@
 import cv2 as cv
 import sys
 import numpy as np
+import argparse
 
 sys.path.append('../')
 
 from include.SoyNet import *
 from utils.utils import MakeMultiple32, ViewResult
 
+parser = argparse.ArgumentParser(description="Set Value")
+parser.add_argument('-t', '--threshold',
+                    required=False,
+                    type=float,
+                    default=0.45,
+                    help="Set Threshold")
+
 if __name__ == "__main__":
+
+    args = parser.parse_args()
+
     class_names = (0, 1)
 
     # Variable for SoyNet
@@ -76,9 +87,10 @@ if __name__ == "__main__":
         for n_idx in range(nms_count):
             x1, y1, x2, y2, prob, r_eye_x, r_eye_y, l_eye_x, l_eye_y,\
                 nose_x, nose_y, r_mouth_x, r_mouth_y, l_mout_x, l_mout_y = output[n_idx + b_idx * nms_count]
+            if prob >= args.threshold:
 
-            print("NMS_Num: {} \nx1: {} \ny1: {} \nx2: {} \ny2: {} \nprob: {} \n".format(
-                n_idx, x1, y1, x2, y2, prob))
+                print("NMS_Num: {} \nx1: {} \ny1: {} \nx2: {} \ny2: {} \nprob: {} \n".format(
+                    n_idx, x1, y1, x2, y2, prob))
 
     # destroy SoyNet handle
     # freeSoyNet() removes the handle.
