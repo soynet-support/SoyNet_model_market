@@ -1,8 +1,7 @@
 import torch
 import numpy as np
-# batch_norm이 있지만 detect.py에서 사용할 때 퓨전해서 모델 가져옴
 
-model_type = "s6" # n, s, m, l, x
+model_type = "s" # n, s, m, l, x
                 # s6, m6, l6, x6
 
 model = torch.load("./weights/yolov5%s.pt"%(model_type))["model"]
