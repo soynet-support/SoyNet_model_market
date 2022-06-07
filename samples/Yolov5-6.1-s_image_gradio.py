@@ -6,23 +6,37 @@ import gradio as gr
 
 sys.path.append('../')
 
-from utils.ClassName import COCO_80
 from include.SoyNet import *
 
-parser = argparse.ArgumentParser(description="Set Value")
-parser.add_argument('-t', '--threshold',
-                    required=False,
-                    type=float,
-                    default=0.6,
-                    help="Set Threshold")
+from utils.ClassName import COCO_80
+class_names = COCO_80()
 
+def predict(img):
+    # Resize Image
+    resized_img = cv.resize(img, (input_width, input_height))
 
-def soynet_image(img):
+    # Create Output Variable
+    data_type = np.dtype([("x1", c_float), ("y1", c_float), ("x2", c_float), ("y2", c_float),
+                            ("obj_id", c_int), ("prob", c_float)])
+    output = np.zeros(batch_size * nms_count, dtype=data_type)
 
-    args = parser.parse_args()
+    # Use feedData, inference, getOutput to inference.
+    # If a handle is already created, these can be used repeatedly.
+    feedData(handle, resized_img)
+    inference(handle)
+    getOutput(handle, output)
 
-    class_names = COCO_80()
+    # apply predicted result to original image
+    threshold = 0.6
+    for n_idx in range(nms_count):
+        x1, y1, x2, y2, obj_id, prob = output[n_idx]
+        if prob > threshold:
+            x1, y1, x2, y2 = int(x1), int(y1), int(x2), int(y2)
+            cv.rectangle(img, (x1, y1), (x2, y2), (0, 0, 255), 2)
+            cv.putText(img, class_names[obj_id], (x1, y1 - 3), 1, 1.5, (255, 0, 0), 1, cv.LINE_AA)
+    return img
 
+if __name__ == "__main__":
     # Variable for SoyNet
     batch_size = 1
     engine_serialize = 0  # 1: Create Engine For SoyNet, 0: Use of Engine generated
@@ -54,50 +68,16 @@ def soynet_image(img):
     # Use only for the first run.Once you have created a handle, you do not need to recreate handle.
     handle = initSoyNet(cfg_file, extend_param)
 
-
-    # Resize Image
-    resized_img = cv.resize(img, (input_width, input_height))
-
-    # Create Output Variable
-    data_type = np.dtype([("x1", c_float), ("y1", c_float), ("x2", c_float), ("y2", c_float),
-                          ("obj_id", c_int), ("prob", c_float)])
-    output = np.zeros(batch_size * nms_count, dtype=data_type)
-
-    # Use feedData, inference, getOutput to inference.
-    # If a handle is already created, these can be used repeatedly.
-    # FeedData
-    feedData(handle, resized_img)
-
-    # Inference
-    inference(handle)
-
-    # GetOutput
-    getOutput(handle, output)
-
-    class_name = COCO_80()
-
-    for n_idx in range(nms_count):
-        x1, y1, x2, y2, obj_id, prob = output[n_idx]
-
-        if prob > args.threshold:
-            x1, y1, x2, y2 = int(x1), int(y1), int(x2), int(y2)
-            cv.rectangle(img, (x1, y1), (x2, y2), (0, 0, 255), 2)
-            cv.putText(img, class_name[obj_id], (x1, y1 - 3), 1, 1.5, (255, 0, 0), 1, cv.LINE_AA)
-
-    # destroy SoyNet handle
-    # freeSoyNet() removes the handle.
-    # If you want to use the model again after removing the handle, create the handle again.
-    freeSoyNet(handle)
-
-    return img
-
-
-if __name__ == "__main__":
-
     demo = gr.Interface(
-        soynet_image,
+        fn=predict,
         inputs="image",
-        outputs="image"
+        outputs="image",
+        title='SoyNet gradio Demo',
+        description='This is gradio demo using SoyNet inference engine.',
+        examples=['examples/NY_01.png','examples/NY_02.png'],
     )
-
-    demo.launch()
+    try:
+        demo.launch()
+    except KeyboardInterrupt:
+        # destroy SoyNet handle
+        freeSoyNet(handle)    
