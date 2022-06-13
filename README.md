@@ -454,8 +454,8 @@ More details can be found [here](https://soynet.io/#/blog-post/1652404408651).
   </tr>
 </table>
 
-The model will be added continuously, so please contact [SoyNet](https://market.soymlops.com/#/contact-us) for the **Custom Model**.
+The model will be added continuously, so please contact [SoyNet](https://soynet.io/#/contact-us) for the **Custom Model**.
 
 ## Contact
-For business inquiries or professional support requests please visit [SoyNet](https://market.soymlops.com/#/contact-us).
+For business inquiries or professional support requests please visit [SoyNet](https://soynet.io/#/contact-us).
 
