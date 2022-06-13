@@ -4,7 +4,7 @@
 
 [SoyNet](https://soynet.io/) is an inference optimizing solution for AI models.
 
-We start a [SoyNet AI model market](https://soynet.io/).
+We start a [SoyNet AI model market](https://soynet.io/#/market).
 
 ## SoyNet Overview
 
