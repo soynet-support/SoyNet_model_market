@@ -56,7 +56,7 @@ If you cannot create an engine, review the configuration settings again.
 
 It is possible to create a C++ executable file.
 
-Contact [SOYNET](https://market.soymlops.com/#/contact-us).
+Contact [SOYNET](https://soynet.io/#/contact-us).
 
 # Reference
  - [Original Code](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch)
