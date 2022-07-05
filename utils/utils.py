@@ -134,6 +134,7 @@ def ViewResult(ori_img, output, name, batch=1, nms=0):
             rip, masked_img = output[b_idx]
             for r_idx in rip:
                 x1, y1, x2, y2, obj_id, prob = r_idx
+                x1, y1, x2, y2 = int(x1), int(y1), int(x2), int(y2)
                 cv.rectangle(masked_img, (x1, y1), (x2, y2), (0, 0, 255), 2)
                 cv.putText(masked_img, class_name[obj_id], (int(x1), int(y1) - 3), 1, 1.5, (255, 0, 0), 1, cv.LINE_AA)
             cv.imshow(name + ' Image', masked_img)
@@ -165,9 +166,10 @@ def ViewResult(ori_img, output, name, batch=1, nms=0):
             keypoint = result[nms * 6:]
             for n_idx in range(nms):
                 x1, y1, x2, y2, obj_id, prob = rip[n_idx * 6: (n_idx + 1) * 6]  # 6 + 17 * 3
+                x1, y1, x2, y2 = int(x1), int(y1), int(x2), int(y2)
                 cv.rectangle(ori_img, (x1, y1), (x2, y2), (0, 0, 255), 2)
                 for k_idx in range(n_idx * 51, (n_idx + 1) * 51, 3):
-                    cv.circle(ori_img, (keypoint[k_idx], keypoint[k_idx + 1]), 5, (0, 255, 255), -1)
+                    cv.circle(ori_img, (int(keypoint[k_idx]), int(keypoint[k_idx + 1])), 5, (0, 255, 255), -1)
             cv.imshow(name + ' Image', ori_img)
             while True:
                 if cv.waitKey(1) == ord('q'):
@@ -177,9 +179,9 @@ def ViewResult(ori_img, output, name, batch=1, nms=0):
     elif name == 'RetinaFace' or name == 'Yolov5_face':
         for n_idx in range(nms):
             result = output[n_idx]
-            cv.rectangle(ori_img, (result[0], result[1]), (result[2], result[3]), (0, 0, 255), 2)
+            cv.rectangle(ori_img, (int(result[0]), int(result[1])), (int(result[2]), int(result[3])), (0, 0, 255), 2)
             for idx in range(5, 15, 2):
-                cv.circle(ori_img, (result[idx], result[idx + 1]), 5, (0, 255, 255), -1)
+                cv.circle(ori_img, (int(result[idx]), int(result[idx + 1])), 5, (0, 255, 255), -1)
         cv.imshow(name + ' Image', ori_img)
         while True:
             if cv.waitKey(1) == ord('q'):
