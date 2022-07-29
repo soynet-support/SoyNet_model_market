@@ -57,53 +57,66 @@ def ViewFPS(ori_img, start, end, img_height, Color):
     return ori_img, fps
 
 
-def ViewResult(ori_img, output, name, batch=1, nms=0):
+def ViewResult(ori_img, outputs, name, batch=1, nms=0):
 
     if ori_img is None:
-        exit()
-
-    row = ori_img.shape[0]
-    col = ori_img.shape[1]
+        print("ori_img is required")
+        exit(-1)
 
     if name == 'IDN':
-        output = cv.cvtColor(output, cv.COLOR_BGR2RGB)
-        cv.imshow(name + ' Image', output)
-        while True:
-            if cv.waitKey(1) == ord('q'):
-                cv.destroyWindow(name + ' Image')
-                break
+        for b_idx in range(batch):
+            output = outputs[b_idx]
+            img = cv.cvtColor(output, cv.COLOR_BGR2RGB)
+            cv.imshow(name + ' Image', img)
+            while True:
+                if cv.waitKey(1) == ord('q'):
+                    cv.destroyWindow(name + ' Image')
+                    break
 
     elif name == 'Glean':
-        output = np.reshape(output, (output.shape[2], output.shape[3], output.shape[1]))
-        output = cv.cvtColor(output, cv.COLOR_BGR2RGB)
-        cv.imshow(name + ' Image', output)
-        while True:
-            if cv.waitKey(1) == ord('q'):
-                cv.destroyWindow(name + ' Image')
-                break
+        for b_idx in range(batch):
+            output = outputs[b_idx]
+            img = cv.cvtColor(output, cv.COLOR_BGR2RGB)
+            cv.imshow(name + ' Image', img)
+            while True:
+                if cv.waitKey(1) == ord('q'):
+                    cv.destroyWindow(name + ' Image')
+                    break
+
+    elif name == 'EDSRGAN':
+        for b_idx in range(batch):
+            output = outputs[b_idx]
+            img = cv.cvtColor(output, cv.COLOR_RGB2BGR)
+            cv.imshow(name + ' Image', img)
+            while True:
+                if cv.waitKey(1) == ord('q'):
+                    cv.destroyWindow(name + ' Image')
+                    break
 
     elif name == 'Pix2Pix' or name == 'FAnoGan':
-        output = output.reshape((output.shape[1], output.shape[2], output.shape[3]))
-        output = np.transpose(output, (1, 2, 0))
-        cv.imshow(name + ' Image', output)
-        while True:
-            if cv.waitKey(1) == ord('q'):
-                cv.destroyWindow(name + ' Image')
-                break
+        for b_idx in range(batch):
+            output = outputs[b_idx]
+            img = np.transpose(output, (1, 2, 0))
+            cv.imshow(name + ' Image', img)
+            while True:
+                if cv.waitKey(1) == ord('q'):
+                    cv.destroyWindow(name + ' Image')
+                    break
 
     elif name == 'CycleGan':
-        img = np.reshape(output, (row, col, 3)).astype(np.uint8)
-        cv.imshow(name + ' Image', img)
-        while True:
-            if cv.waitKey(1) == ord('q'):
-                cv.destroyWindow(name + ' Image')
-                break
+        for b_idx in range(batch):
+            img = outputs[b_idx].astype(np.uint8)
+            cv.imshow(name + ' Image', img)
+            while True:
+                if cv.waitKey(1) == ord('q'):
+                    cv.destroyWindow(name + ' Image')
+                    break
 
     elif name == 'Faster-RCNN' or name == 'EfficientDet' or name == 'Yolor' or name == 'Yolov5':
         class_name = COCO_80()
         for b_idx in range(batch):
             for n_idx in range(nms):
-                x1, y1, x2, y2, obj_id, prob = output[n_idx + b_idx * nms]
+                x1, y1, x2, y2, obj_id, prob = outputs[n_idx + b_idx * nms]
                 x1, y1, x2, y2 = int(x1), int(y1), int(x2), int(y2)
                 cv.rectangle(ori_img, (x1, y1), (x2, y2), (0, 0, 255), 2)
                 cv.putText(ori_img, class_name[obj_id], (x1, y1 - 3), 1, 1.5, (255, 0, 0), 1, cv.LINE_AA)
@@ -117,7 +130,7 @@ def ViewResult(ori_img, output, name, batch=1, nms=0):
         class_name = COCO_90()
         for b_idx in range(batch):
             for n_idx in range(nms):
-                x1, y1, x2, y2, obj_id, prob = output[n_idx + b_idx * nms]
+                x1, y1, x2, y2, obj_id, prob = outputs[n_idx + b_idx * nms]
                 x1, x2 = int(x1 * ori_img.shape[1]), int(x2 * ori_img.shape[1])
                 y1, y2 = int(y1 * ori_img.shape[0]), int(y2 * ori_img.shape[0])
                 cv.rectangle(ori_img, (x1, y1), (x2, y2), (0, 0, 255), 2)
@@ -131,7 +144,7 @@ def ViewResult(ori_img, output, name, batch=1, nms=0):
     elif name == 'Mask-RCNN':
         class_name = COCO_80()
         for b_idx in range(batch):
-            rip, masked_img = output[b_idx]
+            rip, masked_img = outputs[b_idx]
             for r_idx in rip:
                 x1, y1, x2, y2, obj_id, prob = r_idx
                 x1, y1, x2, y2 = int(x1), int(y1), int(x2), int(y2)
@@ -146,7 +159,7 @@ def ViewResult(ori_img, output, name, batch=1, nms=0):
     elif name == 'Yolact++' or name == 'Yolact':
         class_name = COCO_80()
         for b_idx in range(batch):
-            rip, masked_img = output[b_idx]
+            rip, masked_img = outputs[b_idx]
             for r_idx in rip:
                 x1, y1, x2, y2, obj_id, prob = r_idx
                 x1, x2 = int(x1 * ori_img.shape[1]), int(x2 * ori_img.shape[1])
@@ -161,7 +174,7 @@ def ViewResult(ori_img, output, name, batch=1, nms=0):
 
     elif name == 'Pose-RCNN':
         for b_idx in range(batch):
-            result = output[b_idx]
+            result = outputs[b_idx]
             rip = result[: nms * 6]
             keypoint = result[nms * 6:]
             for n_idx in range(nms):
@@ -178,7 +191,7 @@ def ViewResult(ori_img, output, name, batch=1, nms=0):
 
     elif name == 'RetinaFace' or name == 'Yolov5_face':
         for n_idx in range(nms):
-            result = output[n_idx]
+            result = outputs[n_idx]
             cv.rectangle(ori_img, (int(result[0]), int(result[1])), (int(result[2]), int(result[3])), (0, 0, 255), 2)
             for idx in range(5, 15, 2):
                 cv.circle(ori_img, (int(result[idx]), int(result[idx + 1])), 5, (0, 255, 255), -1)
