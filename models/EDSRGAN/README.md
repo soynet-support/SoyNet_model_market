@@ -1,6 +1,6 @@
 # EDSRGAN Model Overview
-Based on SRResNet architecture, EDSR is optimized by analyzing and removing unnecessary modules to simplify the network architecture.
-# Prerequisites
+EDSRGAN is a single image super-resolution(SISR) algorithm, based on enhanced residual network and the adversarial network.    
+It can greatly reduce the high-frequency noise contained in the super-resolution(SR) image, and it also leads SRGAN in terms of peak signal to noise ratio and structural similarity evaluation indicators.
 
 #### NVIDA Development Environment
  - CUDA (= 11.1)
