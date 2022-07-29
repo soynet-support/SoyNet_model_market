@@ -1,4 +1,4 @@
-# Glean Model Overview
+# EDSRGAN Model Overview
 The EDSRGAN show that pre-trained Generative Adversarial Networks (GANs), can be used as a latent bank to improve the restoration quality of large-factor image super-resolution (SR).
 
 # Prerequisites
