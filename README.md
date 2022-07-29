@@ -403,6 +403,13 @@ More details can be found [here](https://soynet.io/#/blog-post/1652404408651).
     <td align=center>✔</td>
     <td align=center>✔</td>
   </tr>
+    <tr>
+    <td align=center><a href="https://github.com/soynet-support/SoyNet_model_market/tree/main/models/EDSRGAN">EDSRGAN</a></td>
+    <td align=center><a href="https://github.com/krasserm/super-resolution">LINK</a></td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+    <td align=center>✔</td>
+  </tr>
 </table>
 
 #### NLP
