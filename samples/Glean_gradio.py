@@ -18,7 +18,7 @@ def predict(img):
     resized_img = cv.resize(img, (model_size, model_size))
 
     # Create Output Variable
-    output = np.zeros((batch_size, 3, model_size * 8, model_size * 8), dtype=np.float32)
+    output = np.zeros((batch_size, model_size * 8, model_size * 8, 3), dtype=np.float32)
 
     # Use feedData, inference, getOutput to inference.
     # If a handle is already created, these can be used repeatedly.
@@ -27,8 +27,7 @@ def predict(img):
     getOutput(handle, output)
     
     # post processing for gradio output image 
-    output = np.reshape(output, (output.shape[2], output.shape[3], output.shape[1]))
-    output = cv.cvtColor(output, cv.COLOR_BGR2RGB)
+    output = cv.cvtColor(output[0], cv.COLOR_BGR2RGB)
     output /= output.max()
     
     return output
