@@ -63,8 +63,7 @@ if __name__ == "__main__":
 
     # Post-Processing
     # [N, C, H, W] -> [N, H, W, C]
-    for n in range(batch_size):
-        result = np.transpose(output[n], (1, 2, 0))
+    result = np.transpose(output, (0, 2, 3, 1))
 
     # destroy SoyNet handle
     # freeSoyNet() removes the handle.
