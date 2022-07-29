@@ -45,7 +45,7 @@ if __name__ == "__main__":
     resized_img = cv.resize(img, (model_size, model_size))
 
     # Create Output Variable
-    output = np.zeros((batch_size, 3, model_size * 8, model_size * 8), dtype=np.float32)
+    output = np.zeros((batch_size, model_size * 8, model_size * 8, 3), dtype=np.float32)
 
     # Use feedData, inference, getOutput to inference.
     # If a handle is already created, these can be used repeatedly.
