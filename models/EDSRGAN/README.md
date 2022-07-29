@@ -1,6 +1,5 @@
 # EDSRGAN Model Overview
-The EDSRGAN show that pre-trained Generative Adversarial Networks (GANs), can be used as a latent bank to improve the restoration quality of large-factor image super-resolution (SR).
-
+Based on SRResNet architecture, EDSR is optimized by analyzing and removing unnecessary modules to simplify the network architecture.
 # Prerequisites
 
 #### NVIDA Development Environment
