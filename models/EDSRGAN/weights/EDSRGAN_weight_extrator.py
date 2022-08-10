@@ -36,11 +36,9 @@ def extract_weight(depth, scale, weights_file):
         print("Done!")
 
 if __name__ == '__main__':
-    # Number of residual blocks
-    depth = 16
-
-    # Super-resolution factor
-    scale = 4
+    
+    scale = 4     # Super-resolution factor
+    depth = 16    # Number of residual blocks
 
     # Tensorflow weight path
     weights_dir = f'../mgmt/weights/edsr-{depth}-x{scale}'
