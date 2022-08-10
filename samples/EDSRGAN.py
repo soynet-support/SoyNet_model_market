@@ -15,9 +15,11 @@ if __name__ == "__main__":
 
     batch_size = 1
     input_height, input_width = 540, 960
-
-    scale = 4
-    model_name = "edsr-16-x{}".format(scale)
+    
+    scale = 4     # Super-resolution factor
+    depth = 16    # Number of residual blocks
+    
+    model_name = "edsr-{}-x{}".format(depth, scale)
 
     cfg_file = "../models/EDSRGAN/configs/{}.cfg".format(model_name)
     weight_file = "../models/EDSRGAN/weights/{}.weights".format(model_name)
