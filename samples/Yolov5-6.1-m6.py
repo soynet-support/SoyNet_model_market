@@ -93,4 +93,4 @@ if __name__ == "__main__":
     freeSoyNet(handle)
 
     # View Result
-    ViewResult(img, output, 'Yolov5', nms=nms_count)
+    ViewResult(resized_img, output, 'Yolov5', nms=nms_count)
