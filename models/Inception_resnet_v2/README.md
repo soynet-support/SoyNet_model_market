@@ -56,7 +56,7 @@ It is possible to create a C++ executable file.
 Contact [SOYNET](https://soynet.io/#/contact-us).
 
 # Reference
-  - [Original Code](https://rwightman.github.io/pytorch-image-models/models/inception-resnet-v2/)
+  - [Original Code](https://github.com/rwightman/pytorch-image-models)
 
 
 # Acknowlegement
