@@ -5,13 +5,13 @@ import numpy as np
 sys.path.append('../')
 
 from utils.utils import ViewResult
-from utils.ClassName import COCO_80
+from utils.ClassName import COCO_90
 from include.SoyNet import *
 
 if __name__ == "__main__":
     model_sizes = (512, 640, 768, 896, 1024, 1280, 1280, 1536, 1536)
     version = {"D0": 0, "D5": 5}
-    class_names = COCO_80()
+    class_names = COCO_90()
 
     # Variable for SoyNet
     model_code = version["D0"]
