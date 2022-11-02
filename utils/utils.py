@@ -127,8 +127,22 @@ def ViewResult(ori_img, outputs, name, batch=1, nms=0):
                     cv.destroyWindow(name + ' Image')
                     break
 
-    elif name == 'Faster-RCNN' or name == 'EfficientDet' or name == 'Yolor' or name == 'Yolov5':
+    elif name == 'Faster-RCNN' or name == 'Yolor' or name == 'Yolov5':
         class_name = COCO_80()
+        for b_idx in range(batch):
+            for n_idx in range(nms):
+                x1, y1, x2, y2, obj_id, prob = outputs[n_idx + b_idx * nms]
+                x1, y1, x2, y2 = int(x1), int(y1), int(x2), int(y2)
+                cv.rectangle(ori_img, (x1, y1), (x2, y2), (0, 0, 255), 2)
+                cv.putText(ori_img, class_name[obj_id], (x1, y1 - 3), 1, 1.5, (255, 0, 0), 1, cv.LINE_AA)
+            cv.imshow(name + ' Image', ori_img)
+            while True:
+                if cv.waitKey(1) == ord('q'):
+                    cv.destroyWindow(name + ' Image')
+                    break
+                    
+    elif name == 'EfficientDet':
+        class_name = COCO_90()
         for b_idx in range(batch):
             for n_idx in range(nms):
                 x1, y1, x2, y2, obj_id, prob = outputs[n_idx + b_idx * nms]
