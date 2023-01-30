@@ -80,6 +80,10 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++.
 
     ※ Also, You can use a docker.
 
+#### H/W
+ - Tested GPU architecture : Pascal/Volta/Turing/Ampere (ex: for PC Nvidia GTX 10xx, RTX 20xx/30xx, etc)
+   ※ Please contact us for specific GPU support.
+ 
 #### S/W
  - OS : Ubuntu 18.04 LTS
  - Others : `pip install -r requirements.txt` 
