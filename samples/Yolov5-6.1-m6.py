@@ -33,7 +33,8 @@ if __name__ == "__main__":
     model_size = 1280
 
     model_name = "yolov5m6"
-
+    
+    precision = "32"
     cfg_file = "../models/Yolov5-6.1-m6/configs/{}.cfg".format(model_name)
     weight_file = "../models/Yolov5-6.1-m6/weights/{}.weights".format(model_name)
     engine_file = "../models/Yolov5-6.1-m6/engines/{}.bin".format(model_name)
@@ -42,10 +43,10 @@ if __name__ == "__main__":
     extend_param = \
         "MODEL_NAME={} BATCH_SIZE={} ENGINE_SERIALIZE={} CLASS_COUNT={} NMS_COUNT={} REGION_COUNT={} " \
         "INPUT_SIZE={},{} MODEL_SIZE={},{} " \
-        "WEIGHT_FILE={} ENGINE_FILE={} LOG_FILE={}".format(
+        "WEIGHT_FILE={} ENGINE_FILE={} LOG_FILE={} PRECISION={}".format(
             model_name, batch_size, engine_serialize, class_count, nms_count, region_count,
             input_height, input_width, model_size, model_size,
-            weight_file, engine_file, log_file
+            weight_file, engine_file, log_file, precision
         )
 
     # Create SoyNet Handle
